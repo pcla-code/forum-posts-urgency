@@ -34,7 +34,7 @@ from sklearn.model_selection import GroupKFold
 from sklearn.preprocessing import StandardScaler
 
 # Performance evaluation metrics
-from sklearn.metrics import mean_squared_error, roc_auc_score, f1_score
+from sklearn.metrics import mean_squared_error, roc_auc_score, f1_score, classification_report
 from scipy.stats import spearmanr
 from statistics import mean
 
@@ -141,13 +141,16 @@ def test_model_performance(X_test, y_test, model, visualize=False):
                           spearmanr(y_test, y_test_predicted).correlation]
     else:
         if type(model) is tf.keras.Sequential:
-            y_test_predicted = np.argmax(model.predict(X_test), axis=-1)  # Use for NN classification
-            # Selects the class with the highest probability
+            y_test_predicted = np.round(model.predict(X_test))  # Use for NN classification
         else:
-            y_test_predicted = (model.predict_proba(X_test)[:, 1] >= 0.1).astype(bool)  # Use for other binary classifiers
-            # You can set the decision threshold cut-off: ~0.1 best for RF (WC), ~0.05 best for XGB (WC)
+            y_test_predicted = model.predict(X_test)
+            y_test_predicted = (model.predict_proba(X_test)[:, 1] >= 0.1).astype(bool)  # Here you can set the decision threshold cut-off
+
+        per_class_metrics = classification_report(y_test, y_test_predicted, output_dict=True)
         result_metrics = [roc_auc_score(y_test, y_test_predicted),
-                          f1_score(y_test, y_test_predicted)]
+                          f1_score(y_test, y_test_predicted, average='macro'),
+                          per_class_metrics['0']['f1-score'],
+                          per_class_metrics['1']['f1-score']]
 
     if visualize and not BINARY_CLASSIFICATION:
         predicted_values_per_label = [[] for _ in range(7)]  # List of 7 empty lists, one for each urgency label
@@ -164,7 +167,7 @@ def test_model_performance(X_test, y_test, model, visualize=False):
 
 def train_and_cross_validate_model(X, y, groups, model, n_splits=10):
     """ Using the functions above, train and cross-validate the given model. """
-    metrics_values = [[], []]  # Individual (= per each fold) RMSE and Spearman values *OR* AUC and F1 values
+    metrics_values = [[] for _ in range(4)]  # Individual (= per each fold) RMSE and Spearman values *OR* AUC and F1 values
     gkf = GroupKFold(n_splits=n_splits)
     for train_index, validate_index in gkf.split(X, y, groups=groups):
         X_train, X_validate, y_train, y_validate = get_train_test_split(X, y, train_index, validate_index)
@@ -178,7 +181,6 @@ def train_and_cross_validate_model(X, y, groups, model, n_splits=10):
             metrics_values[i].append(results[i])
 
     print(model)  # Print the cross-validation results
-    print(metrics_values)
     for metric_values in metrics_values:
         if metric_values:
             print(mean(metric_values))
@@ -299,7 +301,7 @@ def main(method):
     modelOrdReg = OrdinalRidge()
     modelSVReg = SVR()
     modelNN = tf.keras.Sequential()
-    for model in [modelNN]:  # modelCART, modelRF, modelXGB, modelLinReg, modelOrdReg, modelSVReg
+    for model in [modelRF, modelXGB, modelNN]:  # modelCART, modelRF, modelXGB, modelLinReg, modelOrdReg, modelSVReg
         train_and_cross_validate_model(X_train, y, groups, model)
         if model == modelNN:
             model = prepare_and_fit_NN_model(X_train, y)  # Keras models must be fitted again, the objects are lost inside the function
@@ -307,5 +309,5 @@ def main(method):
 
 
 if __name__ == '__main__':
-    BINARY_CLASSIFICATION = False  # Switch depending on your needs
+    BINARY_CLASSIFICATION = True  # Switch depending on your needs
     main('USE')  # Set to 'WC' or 'USE' depending on your needs
