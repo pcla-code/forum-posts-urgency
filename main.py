@@ -80,8 +80,8 @@ def prepare_data(filepath='All_Courses_REDACTED_CODED.csv'):
     y = X.pop('Urgency_1_7').apply(float)  # Do not .apply(round) here to preserve .5 values in the Stanford dataset
 
     assert all(1 <= label <= 7 for label in y)
-    if BINARY_CLASSIFICATION:  # Convert the labels to binary (1--4 becomes 0, 5--7 becomes 1)
-        y = y.apply(lambda label: 1 if label >= 5 else 0)
+    if BINARY_CLASSIFICATION:  # Convert the labels to binary (1--4 becomes 0, 4.5--7 becomes 1)
+        y = y.apply(lambda label: 1 if label >= 4 else 0)
     print(y.describe())
 
     return X, y
@@ -144,7 +144,7 @@ def test_model_performance(X_test, y_test, model, visualize=False):
             y_test_predicted = np.round(model.predict(X_test))  # Use for NN classification
         else:
             y_test_predicted = model.predict(X_test)
-            y_test_predicted = (model.predict_proba(X_test)[:, 1] >= 0.1).astype(bool)  # Here you can set the decision threshold cut-off
+            # y_test_predicted = (model.predict_proba(X_test)[:, 1] >= 0.1).astype(bool)  # Here you can set the decision threshold cut-off
 
         per_class_metrics = classification_report(y_test, y_test_predicted, output_dict=True)
         result_metrics = [roc_auc_score(y_test, y_test_predicted),
@@ -153,14 +153,15 @@ def test_model_performance(X_test, y_test, model, visualize=False):
                           per_class_metrics['1']['f1-score']]
 
     if visualize and not BINARY_CLASSIFICATION:
-        predicted_values_per_label = [[] for _ in range(7)]  # List of 7 empty lists, one for each urgency label
-        # y_test = y_test.apply(round)
+        possible_labels = [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7]  # For the test set
+        predicted_values_per_label = {label: [] for label in possible_labels}  # List of values for each urgency label
         for i in range(len(y_test)):
-            predicted_values_per_label[y_test[i] - 1].append(y_test_predicted[i])  # Each list has all the predicted values for that urgency label
-        plt.boxplot(predicted_values_per_label)
+            predicted_values_per_label[y_test[i]].append(y_test_predicted[i])  # All predicted values for each urgency label
+        avg_predicted_values_per_label = [mean(predicted_values_per_label[x]) for x in possible_labels]
+        plt.plot(possible_labels, avg_predicted_values_per_label)
         plt.xlabel("Actual urgency label")
         plt.ylabel("Predicted urgency label")
-        plt.savefig('boxplot.png', dpi=1200, bbox_inches='tight')
+        plt.savefig('plot.png', dpi=1200, bbox_inches='tight')
 
     return result_metrics
 
@@ -301,13 +302,13 @@ def main(method):
     modelOrdReg = OrdinalRidge()
     modelSVReg = SVR()
     modelNN = tf.keras.Sequential()
-    for model in [modelRF, modelXGB, modelNN]:  # modelCART, modelRF, modelXGB, modelLinReg, modelOrdReg, modelSVReg
+    for model in [modelRF, modelXGB, modelNN]:  # modelCART, modelRF, modelXGB, modelLinReg, modelOrdReg, modelSVReg, modelNN
         train_and_cross_validate_model(X_train, y, groups, model)
         if model == modelNN:
             model = prepare_and_fit_NN_model(X_train, y)  # Keras models must be fitted again, the objects are lost inside the function
-        print(test_model_performance(X_test, y_Stanford, model))  # Add True here to create boxplots
+        print(test_model_performance(X_test, y_Stanford, model, True))  # Add True here to create plots
 
 
 if __name__ == '__main__':
     BINARY_CLASSIFICATION = True  # Switch depending on your needs
-    main('USE')  # Set to 'WC' or 'USE' depending on your needs
+    main('WC')  # Set to 'WC' or 'USE' depending on your needs
