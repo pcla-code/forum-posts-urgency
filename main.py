@@ -2,9 +2,10 @@
 Purpose: Classification of MOOC forum posts based on their urgency from 1 (not urgent at all) to 7 (extremely urgent).
 
 Supplementary material to the paper titled "Towards Generalizable Detection of Urgency of Discussion Forum Posts".
-Submitted for review to EDM 2023 conference.
+Submitted for review to EDM 2023 conference on January 20, 2023.
 
 Configuration on which the code was tested: Python 3.10 on Windows 10 (with 16 GB of RAM).
+Approximate total computation time for the best approach (SVM with USE) is 45 seconds.
 """
 
 import pandas as pd
@@ -36,7 +37,7 @@ from sklearn.preprocessing import StandardScaler
 # Performance evaluation metrics
 from sklearn.metrics import mean_squared_error, roc_auc_score, f1_score, classification_report
 from scipy.stats import spearmanr
-from statistics import mean
+from statistics import mean, stdev
 
 # Universal Sentence Encoder and neural networks
 import tensorflow as tf
@@ -81,7 +82,7 @@ def prepare_data(filepath='All_Courses_REDACTED_CODED.csv'):
 
     assert all(1 <= label <= 7 for label in y)
     if BINARY_CLASSIFICATION:  # Convert the labels to binary (1--4 becomes 0, 4.5--7 becomes 1)
-        y = y.apply(lambda label: 1 if label >= 4 else 0)
+        y = y.apply(lambda label: 1 if label > 4 else 0)
     print(y.describe())
 
     return X, y
@@ -144,31 +145,24 @@ def test_model_performance(X_test, y_test, model, visualize=False):
             y_test_predicted = np.round(model.predict(X_test))  # Use for NN classification
         else:
             y_test_predicted = model.predict(X_test)
-            # y_test_predicted = (model.predict_proba(X_test)[:, 1] >= 0.1).astype(bool)  # Here you can set the decision threshold cut-off
+            # y_test_predicted = (model.predict_proba(X_test)[:, 1] >= 0.2).astype(bool)  # Here you can set the decision threshold cut-off
 
         per_class_metrics = classification_report(y_test, y_test_predicted, output_dict=True)
         result_metrics = [roc_auc_score(y_test, y_test_predicted),
                           f1_score(y_test, y_test_predicted, average='macro'),
+                          f1_score(y_test, y_test_predicted, average='weighted'),
                           per_class_metrics['0']['f1-score'],
                           per_class_metrics['1']['f1-score']]
 
     if visualize and not BINARY_CLASSIFICATION:
-        possible_labels = [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7]  # For the test set
-        predicted_values_per_label = {label: [] for label in possible_labels}  # List of values for each urgency label
-        for i in range(len(y_test)):
-            predicted_values_per_label[y_test[i]].append(y_test_predicted[i])  # All predicted values for each urgency label
-        avg_predicted_values_per_label = [mean(predicted_values_per_label[x]) for x in possible_labels]
-        plt.plot(possible_labels, avg_predicted_values_per_label)
-        plt.xlabel("Actual urgency label")
-        plt.ylabel("Predicted urgency label")
-        plt.savefig('plot.png', dpi=1200, bbox_inches='tight')
+        plot_model(y_test, y_test_predicted)
 
     return result_metrics
 
 
 def train_and_cross_validate_model(X, y, groups, model, n_splits=10):
     """ Using the functions above, train and cross-validate the given model. """
-    metrics_values = [[] for _ in range(4)]  # Individual (= per each fold) RMSE and Spearman values *OR* AUC and F1 values
+    metrics_values = [[] for _ in range(5)]  # Individual (= per each fold) RMSE and Spearman values *OR* AUC and F1 values
     gkf = GroupKFold(n_splits=n_splits)
     for train_index, validate_index in gkf.split(X, y, groups=groups):
         X_train, X_validate, y_train, y_validate = get_train_test_split(X, y, train_index, validate_index)
@@ -188,6 +182,32 @@ def train_and_cross_validate_model(X, y, groups, model, n_splits=10):
 
     if type(model) is not tf.keras.Sequential:
         model.fit(X, y)  # Fit the final Sk-learn model on the whole training set (Keras models are discarded)
+
+
+def plot_model(y_test, y_test_predicted):
+    possible_labels = [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7]  # For the test set
+    predicted_values_per_label = {label: [] for label in possible_labels}  # List of values for each urgency label
+    for i in range(len(y_test)):
+        predicted_values_per_label[y_test[i]].append(y_test_predicted[i])  # All predicted values for each urgency label
+    avg_predicted_values_per_label = [mean(predicted_values_per_label[x]) for x in possible_labels]
+    stdev_predicted_values_per_label = [stdev(predicted_values_per_label[x]) for x in possible_labels]
+
+    plt.axis('square')  # Make the x and y scales equal
+    plt.xlim(0.5, 7.5)
+    plt.ylim(0, 4)
+    plt.yticks([1, 2, 3, 4])
+    plt.xlabel("Actual urgency label")
+    plt.ylabel("Predicted urgency label")
+
+    plt.plot(possible_labels, avg_predicted_values_per_label, linestyle='--', marker='o', label='Average')
+    plt.plot(possible_labels, stdev_predicted_values_per_label, linestyle=':', marker='s', label='Standard deviation')
+    plt.legend()
+    for i in range(len(possible_labels)):
+        value_avg = avg_predicted_values_per_label[i]
+        value_stdev = stdev_predicted_values_per_label[i]
+        plt.text(x=possible_labels[i], y=value_avg + 0.33, s=f"{round(value_avg, 1)}", fontsize='small', ha='center', va='top')
+        plt.text(x=possible_labels[i], y=value_stdev + 0.33, s=f"{round(value_stdev, 1)}", fontsize='small', ha='center', va='top')
+    plt.savefig('plot.png', dpi=1200, bbox_inches='tight')
 
 
 # ===== (METHOD 1) SIMPLE WORD COUNTS (WC) USING BAG OF WORDS OR TF-IDF =====
@@ -302,13 +322,13 @@ def main(method):
     modelOrdReg = OrdinalRidge()
     modelSVReg = SVR()
     modelNN = tf.keras.Sequential()
-    for model in [modelRF, modelXGB, modelNN]:  # modelCART, modelRF, modelXGB, modelLinReg, modelOrdReg, modelSVReg, modelNN
+    for model in [modelSVReg]:  # modelCART, modelRF, modelXGB, modelLinReg, modelOrdReg, modelSVReg, modelNN
         train_and_cross_validate_model(X_train, y, groups, model)
         if model == modelNN:
             model = prepare_and_fit_NN_model(X_train, y)  # Keras models must be fitted again, the objects are lost inside the function
-        print(test_model_performance(X_test, y_Stanford, model, True))  # Add True here to create plots
+        print(test_model_performance(X_test, y_Stanford, model))  # Add True here to create plots
 
 
 if __name__ == '__main__':
-    BINARY_CLASSIFICATION = True  # Switch depending on your needs
-    main('WC')  # Set to 'WC' or 'USE' depending on your needs
+    BINARY_CLASSIFICATION = False  # Switch depending on your needs
+    main('USE')  # Set to 'WC' or 'USE' depending on your needs
