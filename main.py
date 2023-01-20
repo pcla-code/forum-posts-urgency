@@ -193,20 +193,27 @@ def plot_model(y_test, y_test_predicted):
     stdev_predicted_values_per_label = [stdev(predicted_values_per_label[x]) for x in possible_labels]
 
     plt.axis('square')  # Make the x and y scales equal
-    plt.xlim(0.5, 7.5)
-    plt.ylim(0, 4)
+    plt.xlim(0.8, 7.4)
+    plt.ylim(0.8, 4.5)
     plt.yticks([1, 2, 3, 4])
     plt.xlabel("Actual urgency label")
-    plt.ylabel("Predicted urgency label")
+    plt.ylabel("Predicted urgency label (mean ± SD)")
 
-    plt.plot(possible_labels, avg_predicted_values_per_label, linestyle='--', marker='o', label='Average')
-    plt.plot(possible_labels, stdev_predicted_values_per_label, linestyle=':', marker='s', label='Standard deviation')
-    plt.legend()
+    # plt.plot(possible_labels, avg_predicted_values_per_label, linestyle='--', marker='o', label='Average')
+    # plt.plot(possible_labels, stdev_predicted_values_per_label, linestyle=':', marker='s', label='Standard deviation')
+    # plt.legend()
+    plt.errorbar(possible_labels, avg_predicted_values_per_label, stdev_predicted_values_per_label, linestyle='', marker='o', capsize=2)
+    offset = 0.05
     for i in range(len(possible_labels)):
-        value_avg = avg_predicted_values_per_label[i]
-        value_stdev = stdev_predicted_values_per_label[i]
-        plt.text(x=possible_labels[i], y=value_avg + 0.33, s=f"{round(value_avg, 1)}", fontsize='small', ha='center', va='top')
-        plt.text(x=possible_labels[i], y=value_stdev + 0.33, s=f"{round(value_stdev, 1)}", fontsize='small', ha='center', va='top')
+        x_text_pos = possible_labels[i] + offset
+        y_value_avg = avg_predicted_values_per_label[i]
+        y_value_stdev = stdev_predicted_values_per_label[i]
+        y_low_point, y_high_point = y_value_avg - y_value_stdev, y_value_avg + y_value_stdev
+
+        plt.text(x=x_text_pos, y=y_value_avg + offset, s=f"{round(y_value_avg, 1)}", fontsize='x-small')
+        plt.text(x=x_text_pos, y=y_low_point + offset, s=f"{round(y_low_point, 1)}", fontsize='xx-small', color='gray')
+        plt.text(x=x_text_pos, y=y_high_point + offset, s=f"{round(y_high_point, 1)}", fontsize='xx-small', color='gray')
+    # plt.show(); quit()
     plt.savefig('plot.png', dpi=1200, bbox_inches='tight')
 
 
@@ -326,9 +333,9 @@ def main(method):
         train_and_cross_validate_model(X_train, y, groups, model)
         if model == modelNN:
             model = prepare_and_fit_NN_model(X_train, y)  # Keras models must be fitted again, the objects are lost inside the function
-        print(test_model_performance(X_test, y_Stanford, model))  # Add True here to create plots
+        print(test_model_performance(X_test, y_Stanford, model, True))  # Add True here to create plots
 
 
 if __name__ == '__main__':
     BINARY_CLASSIFICATION = False  # Switch depending on your needs
-    main('USE')  # Set to 'WC' or 'USE' depending on your needs
+    main('WC')  # Set to 'WC' or 'USE' depending on your needs
