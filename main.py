@@ -1,8 +1,7 @@
 """
 Purpose: Classification of MOOC forum posts based on their urgency from 1 (not urgent at all) to 7 (extremely urgent).
-
-Supplementary material to the paper titled "Towards Generalizable Detection of Urgency of Discussion Forum Posts".
-Submitted for review to EDM 2023 conference on January 20, 2023.
+Author: Valdemar Švábenský <svabenskyv@gmail.com>, University of Pennsylvania, 2022--2023.
+Reviewed by: Andrés Felipe Zambrano, Stefan Slater
 
 Configuration on which the code was tested: Python 3.10 on Windows 10 (with 16 GB of RAM).
 Approximate total computation time for the best approach (SVM with USE) is 45 seconds.
@@ -92,7 +91,7 @@ def prepare_data(filepath='All_Courses_REDACTED_CODED.csv'):
 
 def create_student_cv_groups(X):
     """
-    Code by [redacted] to be able to achieve student-level cross-validation
+    Code by Miggy Andres-Bray (https://www.miggyandresbray.com/) to be able to achieve student-level cross-validation
     during model training.
 
     We create a NumPy array `groups` of size equal to the number of rows in the input dataset `X`,
