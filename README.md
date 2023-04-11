@@ -24,7 +24,7 @@ Original page available on URL: https://web.archive.org/web/20220908024430/https
 
 ## Other documents and files
 
-* `Coding-Instructions.pdf`: 
+* `Coding-Instructions.pdf`: Protocol used for training the coders of the data set.
 * `LICENSE`: MIT license for the Python code.
 * `README.md`: This file.
 
