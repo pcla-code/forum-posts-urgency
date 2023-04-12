@@ -20,7 +20,7 @@ Original page available on URL: https://web.archive.org/web/20220908024430/https
 ## Code
 
 * `main.py`: Python code responsible for data pre-processing and model training. For details, please refer to Sections 3.4--3.5 of the paper.
-* `process-Stanford.py`: Python code responsible for preparing the test set for processing. For details, please refer to Section 3.6 of the paper.
+* `process-Stanford.py`: Python code responsible for computing the numbers in Table 1 of the paper for the test set.
 
 ## Other documents and files
 
