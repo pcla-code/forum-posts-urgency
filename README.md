@@ -4,7 +4,8 @@ This repository contains supplementary materials for the following conference pa
 
 Valdemar Švábenský, Ryan S. Baker, Andrés Zambrano, Yishan Zou, and Stefan Slater.\
 **Towards Generalizable Detection of Urgency of Discussion Forum Posts.**\
-In Proceedings of the 16th International Conference on Educational Data Mining (EDM 2023).
+In Proceedings of the 16th International Conference on Educational Data Mining (EDM 2023).\
+https://educationaldatamining.org/EDM2023/proceedings/2023.EDM-short-papers.29/2023.EDM-short-papers.29.pdf
 
 # Contents of the repository
 
@@ -38,6 +39,13 @@ If you use or build upon the materials, please use the BibTeX entry below to cit
     title     = {{Towards Generalizable Detection of Urgency of Discussion Forum Posts}},
     booktitle = {Proceedings of the 16th International Conference on Educational Data Mining},
     series    = {EDM 2023},
-    year      = {2023}
+    editor    = {Mingyu Feng and Tanja Käser and Partha Talukdar},
+    publisher = {International Educational Data Mining Society},
+    numpages  = {8},
+    pages     = {302--309},
+    year      = {2023},
+    isbn      = {978-1-7336736-4-8},
+    doi       = {10.5281/zenodo.8115790},
+    url       = {https://educationaldatamining.org/EDM2023/proceedings/2023.EDM-short-papers.29/2023.EDM-short-papers.29.pdf}
 }
 ```
