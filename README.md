@@ -31,21 +31,23 @@ Original page available on URL: https://web.archive.org/web/20220908024430/https
 
 # How to cite
 
-If you use or build upon the materials, please use the BibTeX entry below to cite the original work.
+If you use or build upon the materials, please use the BibTeX entry below to cite the original paper (not only this web link).
 
 ```
 @inproceedings{Svabensky2023towards,
     author    = {\v{S}v\'{a}bensk\'{y}, Valdemar and Baker, Ryan S. and Zambrano, Andr\'{e}s and Zou, Yishan and Slater, Stefan},
     title     = {{Towards Generalizable Detection of Urgency of Discussion Forum Posts}},
     booktitle = {Proceedings of the 16th International Conference on Educational Data Mining},
-    series    = {EDM 2023},
+    series    = {EDM '23},
     editor    = {Mingyu Feng and Tanja Käser and Partha Talukdar},
+    location  = {Bengaluru, India},
     publisher = {International Educational Data Mining Society},
-    numpages  = {8},
-    pages     = {302--309},
+    month     = {07},
     year      = {2023},
+    pages     = {302--309},
+    numpages  = {8},
     isbn      = {978-1-7336736-4-8},
+    url       = {https://educationaldatamining.org/EDM2023/proceedings/2023.EDM-short-papers.29/2023.EDM-short-papers.29.pdf},
     doi       = {10.5281/zenodo.8115790},
-    url       = {https://educationaldatamining.org/EDM2023/proceedings/2023.EDM-short-papers.29/2023.EDM-short-papers.29.pdf}
 }
 ```
