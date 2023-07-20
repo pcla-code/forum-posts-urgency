@@ -11,16 +11,18 @@ https://educationaldatamining.org/EDM2023/proceedings/2023.EDM-short-papers.29/2
 
 ## Data
 
-* `All_Courses_REDACTED_CODED.csv`: The training and cross-validation data set used for this work. For details, please refer to Sections 3.1--3.3 of the paper.
+* `data-per-course`: A folder with the data set divided per the 9 courses and split into two parts for the two coders.
+* `All_Courses_REDACTED_CODED.csv`: The final training and cross-validation data set used for this work, resulting from merging all files from `data-per-course` into a single file. For details, please refer to Sections 3.1–3.3 of the paper.
 * `Stanford.csv`: The test data set used for this work. For details, please refer to Section 3.6 of the paper. Citation of this data set:
 
 Agrawal, A. and Paepcke, A., 2014. The Stanford MOOC Posts Dataset.\
 URL: http://infolab.stanford.edu/~paepcke/stanfordMOOCForumPostsSet.tar.gz. \
 Original page available on URL: https://web.archive.org/web/20220908024430/https://datastage.stanford.edu/StanfordMoocPosts/. 
 
+
 ## Code
 
-* `main.py`: Python code responsible for data pre-processing and model training. For details, please refer to Sections 3.4--3.5 of the paper.
+* `main.py`: Python code responsible for data pre-processing and model training. For details, please refer to Sections 3.4–3.5 of the paper.
 * `process-Stanford.py`: Python code responsible for computing the numbers in Table 1 of the paper for the test set.
 
 ## Other documents and files
