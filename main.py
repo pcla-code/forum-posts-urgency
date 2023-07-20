@@ -1,6 +1,6 @@
 """
 Purpose: Classification of MOOC forum posts based on their urgency from 1 (not urgent at all) to 7 (extremely urgent).
-Author: Valdemar Švábenský <svabenskyv@gmail.com>, University of Pennsylvania, 2022--2023.
+Author: Valdemar Švábenský <valdemar@upenn.edu>, University of Pennsylvania, 2022--2023.
 Reviewed by: Andrés Felipe Zambrano, Stefan Slater
 
 Configuration on which the code was tested: Python 3.10 on Windows 10 (with 16 GB of RAM).
