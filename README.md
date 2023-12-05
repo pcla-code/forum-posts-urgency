@@ -19,6 +19,7 @@ Agrawal, A. and Paepcke, A., 2014. The Stanford MOOC Posts Dataset.\
 URL: http://infolab.stanford.edu/~paepcke/stanfordMOOCForumPostsSet.tar.gz. \
 Original page available on URL: https://web.archive.org/web/20220908024430/https://datastage.stanford.edu/StanfordMoocPosts/. 
 
+This version of the data is slightly different than what was used in the paper due to fixing a minor redaction error. Therefore, the results of running the analysis on this data will differ from the results reported in the paper.
 
 ## Code
 

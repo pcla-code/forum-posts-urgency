@@ -1,0 +1,401 @@
+id,post_time,post_text,Urgency_1_7
+2294,1371085161,"Don't mind me, I just wanted to practice latex somewhere where it won't bother people with notifications. (i.e. in a pre-existing thread.)$$&nbsp; e^{x-h} &nbsp;$$&nbsp; ",2
+4522,1374714277,Thanks [REDACTED]&nbsp; I am almost there.... just a 1/h to contend with....,1
+5324,1376276018,"You know what I thought of when I first saw this question, [REDACTED]? I thought of the ln2 incident in the lecture,in which by moving the terms,one gets a totally different answer. I was thinking of this when I noticed that by writing S=1/3+1/9+1/27+...and taking out 1/3....well,I&#39;ll leave the rest for yourself.
+",2
+931,1369759992,"It seems that in calculus in contrast to algebra we are whishy whashy, sloppy and at times creative. We are happy to have some solution although we know it's different from the reality. Calculus feels a lot more practical than pure and abstract theory (algebra), as if when algebra is applied to real life problems, becomes calculus.",2
+2543,1371471526,"Hi,The position function is given by $$ s(t) = 4t^3 $$, therefore $$v(t) = 12t^2 $$ and $$ a(t) = 24t $$. So shouldn't the change in velocity from $$t=2$$ to $$t=3$$ be simply the acceleration at $$t=2$$ since it's all measured in the same units?I would have thought that this should give the same answer as evaluating the difference of $$v(3) - v(2)$$, but this is obviously not the case.Thank you.",3
+698,1369627125,"7/8, somehow got the circle problem wrong which I would have thought was one of the more straight forward problems on the test.",2
+2456,1371352391,"As a physics teacher, this is an interesting problem to bring back to my classes.. how would I explain the significance of the result? &nbsp;Does it mean that as the stopping distance increases, the change in the stopping distance also increases for a larger speed?",3
+5696,1377181572,"that is so clear nowthanksi was thinking in series with hot terms increasing in value,so if you don't count the HOT &nbsp;in the case &nbsp;the terms are growing you have a big error ,but if they are decreasing ,now i understoodthanks for you time and answer,it was great",2
+1613,1370361313,Yes,1
+389,1369497479,Thank you for asking this question  [REDACTED] I was wondering about like you.. and thanks to [REDACTED] for offering an explanation..,2
+913,1369752250,"I didn't know about $$a + bi = c + di$$. But this problem can be solved without knowing about how complex numbers work, it just takes a bit longer. So after expanding $$(cos x + i sin x)^3$$ and simplifying imaginary numbers you get$$cos 3x + i(sin3x)=cos^3x+3i(cos^2x)(sinx)-3(cosx)(sin^2x)-i(sin^3x)$$.The left hand side is also equal to $$cos(x+2x)+i(sin3x)$$which, using the identity of&nbsp;$$cos(x+y)$$ derived from question 1, is equal to $$cosx(cos2x)-sinx(sin2x)+i(sin3x)$$Again, we can break $$cos(2x)$$ into $$cos(x+x)$$, and $$sin(2x)$$ into $$sin(x+x)$$,and applying that to the left hand side will give us$$cosx(cos^2x-sin^2x)-sinx(2sinxcosx)+i(sin3x)$$Expanding and bringing the right side back in, we get $$cos^3x-cosxsin^2x-2(cosxsin^2x)+i(sin3x) = cos^3x+3i(cos^2xsinx)-3(cosxsin^2x)-i(sin^3x)$$$$(cos^3x-cos^3x)-3(sin^2xcosx)+3(sin^2xcosx)+i(sin3x)=3i(cos^2xsinx)-i(sin^3x)$$where we can cancel out like terms to eventually end up with$$i(sin3x)=3i(cos^2xsinx)-i(sin^3x)$$$$i(sin3x)=i(3cos^2xsinx-sin^3x)$$Cancelling out i from both sides we get$$sin3x = 3cos^2xsinx-sin^3x$$",3
+4699,1375133364,"at an abstract level, your question is as follows:""is the average value of $$f(x)$$ for $$0\leq x\leq 1$$&nbsp;equal to $$f(1/2)$$?"" it seems reasonable...after all,the average value of $$x$$ from $$0$$ to $$1$$ isone-half.the answer is ""no"" however. the average value of $$f(x)$$in this case is $$\int_0^1 f(x)dx$$. (note that if $$x$$ rangedover different values, you would have to normalize...)&nbsp;at a concrete level, think of your problem this way:we are asking for the average density of a randomlychosen piece of the planet. how much of the planet(in mass) has radial coordinate between $$0$$ and $$1$$meter? not much. how much of the planet (in mass) hasradial coordinate between $$10000$$ and $$10001$$ m?quite a bit in comparison... your computation would havecounted their contributions the same...does that help?",2
+4401,1374440416,"Trying out Wolframapha on the integration:&nbsp; $$ \displaystyle \int_{\theta = 0}^{\pi} R \, \sqrt{h^2 + 2R^2(1 - \cos{\theta})} \, d\theta $$yields:&nbsp; $$\displaystyle 2 \, R \, |h| \, E(-\frac{4R^2}{h^2}) $$where $$E(m)$$ is the ""complete elliptic integral of the second kind"":&nbsp;&nbsp;http://mathworld.wolfram.com/CompleteEllipticIntegraloftheSecondKind.htmlFor example, if I plugged in $$R=1$$ and $$h=2$$, I got $$4E(-1) \thickapprox 7.6404&nbsp;$$&nbsp;&nbsp;",2
+4405,1374452792,"Thanks for offering to help. &nbsp;I'm just starting this problem and I want to make sure I understand the question correctly so as not to spend too much time chasing a wrong volume. &nbsp;If I rotate this function around the y axis I get two volumes that touch but don't intersect. &nbsp;Do I want the donut with the flat base at [1,3] (green) or the inverted cone at [0,1] (blue) or both. &nbsp;Thanks.",4
+1638,1370370547,"Hello - I am joining a little late, but excited to be here. My name is  [REDACTED] and I live in  [REDACTED]. I am a software architect with a BS and MS in Geological Sciences. I've done a lot of applied calculus over the years, but want to brush up my skills. I'm interested in meteorology and atmospheric dynamics and want to understand the maths behind it better.",2
+3401,1372648465,"[REDACTED]&nbsp;Thank you very much! I have a question tho. Why is it e-5t and not e5t as in the formula is -a, so shouldnt the two minus cancel out? Thanks&nbsp;",4
+5307,1376260269,"hmm...&nbsp;i hope i didn't make a mistake... let me go look up the problem.*looking*oh, i remember this now. the secret is in the wording ""some-thing"" versus ""any-thing"".this may be a bit difficult, especially if english is not your primary language. heck, it'sconfusing to me, and english is the only language i'm good at.&nbsp;my intended meaning was as outlined by gregory, above, implying an existencewhich, technically, is not the contrapositive. there is an argument for ambiguity&nbsp;between ""something"" and ""anything"" -- i can understand the confusion.&nbsp;part of my intention in writing a subtle one of these is to note that it is sometimes*very difficult* to determine what is and is not a contrapositive. so, don't get too&nbsp;worried if you find this statement to be a bit ambiguous.",2
+1571,1370322776,"Dear Professor, I would like to ask whether the method you have illustrated in Q4, HW 6 (challenge) is valid for all functions that have limit as x goes to infinity? (because arctan(x) as x goes to infinity is pi/2)One more thing i would like to request is, is it possible for us to have a pdf copy of homeworks problems? I think it would be easier to work the problems out if we have a printed copy of homework problems.Thank you.",5
+3481,1372795993,"Reanimation disease is based on
+supposed happenings during the 16 and 1700s via a junk style of
+plague that was said to have started in lower Asia, working its way
+across Asia to Europe finally settling in Europe starting in the
+1600s from the 1200s.
+
+
+This plague was said once caught to
+make a person sick with a malaise style of fever, then into a comma
+with death as an end result. The body was then interred. 
+
+
+
+With the passage of the few days the
+thought of as being dead clawed their way out of their earthen graves
+to return to their villages in a stultified but apparently alive
+state to be with family members.
+When the sun set, these changed family
+members bit other family members and this is how said plague invested
+in Europe.
+
+
+The military was assembled and the
+numbers of the reanimated were found and extinguished from their half
+way between life and death existances. These were not zombies, but
+another style of being who is it said had physiologically changed
+teeth.
+
+
+There were also many people that after
+being bitten, were able to overcome their sickness by sheer luck or
+divine providence. After they had recovered and procreated, it was
+said that the children were able to heard these undead from where
+they were hiding and with dogs men with torches being armed, were
+able to find the last of these plague sorts and dispatch them,
+
+
+These plague sorts are not known as the
+clans.
+
+
+The estimated then in Europe was on the
+guessed order of twenty thousand bitten, maybe a bit more, but with
+half of these surviving. Remember this battle goes from the 1600s to
+the 1700s as at that time there was no electronic frontier to be able
+to communicate data quickly to where the infected might be hiding.
+
+
+Time had passed and many of these who
+had survived but held the gene scar trait, settled in many other
+parts of the world. Maybe a lot of them in America. So these
+imigrants had children and their children had children and so on.
+However the trait of resistance to the reanimation disease was
+carried on as a hidden gene trait.
+
+
+Other saids that a zombie virus that
+has the same starter pattern exist in cold vault storage.
+It would be estimated that a certain
+part of the population would not have this resistance.
+Note that now the population of the few
+thousands who carry this resistance trait, are probably now in the
+modern era, vested in the many millions.
+
+
+How zombie virus differs from junk
+vampire virus, is while the starter trait is the same, with sickness
+malaise high fever and death, there is a y function to where either a
+vampire is formed, or a zombie is made.
+
+
+A full viral zombie in theory is a
+being that has its basic body and neurological functions intact, but
+their higher brain function is arrested and even virally let to
+neglect. So the flesh and the body begins to rot, which only the
+basal metabolism urges this being to eat subsistence of the flesh, as
+this is the only food source that supplies it the raw energy that it
+needs.
+
+
+So to make the math equation stance,
+the formula would be, the many decedents of people from the junk
+vampire plagues, that are now in differing locations that carry this
+past gene scar, which would make them resistant to a viral zombie's
+bite, as opposed to people who have no past protection against the
+viral zombie bite, as their protection factor is not within their
+heritage?
+
+
+This is the true statistics and the
+probable format of this mythical affiliation.
+
+
+Note I had&nbsp;read an article in FATE
+Magazine to where a woman as a child while living on a plantation in
+the lower south of the U.S. Was told not to go near an apparent
+zombie worker gang based on that plantation. She had been told in no
+uncertain terms, that if she became too close to these men because of
+their nutrition requirements, that events could take a sudden course
+to disaster.
+
+
+These types of zombies are narcoleptic
+by voodoo zombies in order to work off a debt. But I still believe
+the telling was accurate.
+
+
+A narcoleptic Zombie would be much
+different than a viral zombie, but it seems that both mythologies are
+based in a bit of truth.
+
+
+There probably would not be a one
+hundred percent turn rate with all people turned into viral zombies. 
+
+",2
+3232,1372434833,the unit of constant&nbsp;$${\displaystyle \kappa}$$ is&nbsp;$${\displaystyle \frac {1}{min}}$$. So if one would like to convert&nbsp;$${\displaystyle \frac {0.36}{min}}$$ to per second&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;$${\displaystyle \kappa= \left( \frac{0.36}{min} \right) \left( \frac{1 min}{60 seconds}\right)}$$The answer will be the same.,2
+1314,1370056643,We have\[ \begin{array}{rcl} \frac{1}{1-x^2} &amp; = &amp; \frac{1}{(1-x)(1+x)}\\ &amp; = &amp; \frac{1}{(1-(h+2))(1+(h+2))} \\ &amp; = &amp; \frac{-1}{(h+1)(h+3)} \\ &amp; = &amp; \frac{-1/2}{h+1} + \frac{1/2}{h+3} \\ &amp; = &amp; -\frac{1}{2}\sum_{k=0}^\infty (-h)^k + \frac{1}{6}\sum_{k=0}^\infty\left(-\frac{h}{3}\right)^k \\ &amp; = &amp; \sum_{k=0}^\infty \left(-\frac{1}{2}(-1)^k + \frac{1}{6}\left(-\frac{1}{3}\right)^k\right)h^k \\ &amp; = &amp; \frac{1}{2}\sum_{k=0}^\infty \left(\frac{1}{3^{k+1}} - 1\right)(-1)^kh^k.\end{array}\],2
+4534,1374750134,The usual way to deal with absolute value is to just rewrite the problem as two problems and solve each individually. &nbsp;The tricky part at the end of this one is how to take the average of the two results.,2
+282,1369450391,"I did this course before &amp; it took me about 1 1/2 hours to finish the final exam. There was a ""super kid"" on the forums who said he'd finished it in forty-five minutes. There were some problems with wrong answers on the exam and the grades had to be shifted, which hopefully won't happen this time round. It was not a really difficult ""trick question"" type of exam, just material from the courses, similar to the homework problems.",5
+1473,1370225900,"I just give you advise to download in this website http://en.bookfi.org/s/?q=Morris+Kline%27s+An+Intuitive+Approach+to+Calculus&amp;t=0I wish this link can be help you.Regards,[REDACTED]",2
+2856,1371997399,What does all this (i.e. the answers discussed in this thread) have to do with Taylor Series?Are we just supposed to answer the homework questions using the standard calculus rules or should we be doing something with the new techniques that we've learnt in this course?,4
+3235,1372435678,how to obtain C when t=0? Thanks!,4
+1156,1369903604,"This one made me think a lot too. Here's how I approached it: I started taking derivatives but not with the purpose of getting 11th derivative and noticing what's happening, how the x-terms disappear and what I'm left with. Just few steps were enough. After that I ended up writing derivative just for 11th term and haven't finished it because noticed that I'm getting a familiar sequence of -10*9*8.... So the answer was obvious. :)",2
+4519,1374713042,"Think of the matter this way, [REDACTED]. You start using du in the numerator,but in the denominator you keep the dx term,and so you do not need to make any change in interval.
+",2
+3014,1372177556,Doubtful:&nbsp;http://www.wolframalpha.com/input/?i=Integrate%5BE%5E%7B-Sin%5Bx%5D%7D%5D,2
+721,1369650943,Another great resource:&nbsp; http://www.wolframalpha.com/ ,2
+1246,1370002370,"There seems to be various views on which numbers are real, rational etc. I believe the actual question has been answered - sin(1) is merely shorthand and conventionally would be regarded as meaning 1 radian (unless for example the statement 'all angles are quoted in degrees' was included somewhere). So example x is normally the same as example z. But in some answers above radians (or angles in general) are said to not be real numbers. In my view this could be misleading. A number is a number. When an angle (or anything else) is expressed it is often done so in terms of a number (ie n degrees or m radians where n &amp; m are numbers). Assuming this is the case then we can discuss whether n or m are real numbers. They may not be, They could be imaginary (eg sin(i)). But otherwise they are real. Whether they are integers, rational etc is a different matter. If we had sin(sqrt3) then the number part preceding the implied 'radians' is irrational but it is still real. As an aside when in place of a number we use a variable (eg sin(x)) then often it is necessary to state whether x is real etc. to place limits or 'boundaries' on the possible outcomes.. ",3
+2630,1371632875,"I am aware of if h is too big, the existence of the higher terms in the Taylor expansion of the function will cause the x(n+1) deviate from the real root. However, &nbsp;I cannot justify the fact that by applying Newton's Method, x(n+1) produced will be a better guess of the root. (except for the special cases, for instance where the tangent is a horizontal line ).Any help will be appreciated!",4
+6135,1378207955,I am super excited for my Certificate.,1
+598,1369583839,"My advise is take the course! Do all the homework until you get them right. Read the discussion forum. Ask questions in the Homework section even questions like ""how do I start"". Read everything  [REDACTED] writes. He helped carry me through the Intro to Logic course. Read topics like Wikipedia's ""Trigonometric Identities"" for background info.&nbsp;I'm guessing if you can master the Functions section the rest will become easier, so hang tough.&nbsp;",2
+3932,1373576444,"Would somebody mind explaining this one? &nbsp;The roughest explanation would work, my result is:$$\frac{dy}{dx}=\frac{-\tan y-y^2/x}{x\sec^2y-2y\ln x}$$which looks like some of the answers... but not quite. &nbsp;I spent quite some time trying to simplify it in a way it would match and reviewing my derivations to no avail.",4
+3845,1373409562,"In Question 4 when you solve L{e^t}{s} you get $$-1/(s+1)$$ and then solving L{te^t}{s} gives $$1/(s+1)^2$$ which can be interpreted as L{tf(t)}{s} = d/ds L{f(t)}{s}. But when I give this answer to the grader the following message appears ""Try to interpret relations observed in experiments in terms of differentiation."" but I am already differentiating. The correct answer according to the grader would be L{tf(t)}{s} = -d/ds L{f(t)}{s} but I don't get why that minus sign is there. Can someone tell me where's my mistake? Is it a problem with the grader?",5
+3100,1372271337,Hi I am so confused. I understood the first two questions but this one for some reason seems foreign. Can some one explain this to me please. ,4
+3385,1372628761,$$\displaystyle f(x)=(\mathbb{e}^{x}-1)(x-1)\Rightarrow f'(x)=(\mathbb{e}^{x}-1)'(x-1)+(\mathbb{e}^{x}-1)(x-1)'=x\mathbb{e}^{x}-\mathbb{e}^{x}+\mathbb{e}^x-1=x\mathbb{e}^{x}-1$$so $$\displaystyle f'(0)=0\cdot\mathbb{e}^{0}-1=-1$$ and the linearization is $$\displaystyle \frac{\mathbb{d}x}{\mathbb{d}t}=f'(0)x=-x$$.,2
+2405,1371301261,Here is my approach via implicit differentiation:$$d(sinx = e^{-ycosx})$$$$cosxdx=e^{-ycosx}(-cosxdy+ysinxdx)$$$$dx(cosx-ysinxe^{-ycosx})=-cosxe^{-ycosx}dy$$$$\frac{dy}{dx}= \frac{cosx-ysinxe^{-ycosx}}{-cosxe^{-ycosx}}=-e^{ycosx}+ytanx$$,2
+1788,1370544326,"Has anyone saved the notes? This link http://www.math.uiuc.edu/~hildebr/595ama/ama-ch2.pdf brings me to ""Page not found error"". ",4
+3839,1373402732,"e^((-x^2)/2), the one with integration limits of 1,000,000/-1,000,000 ... the stated correct answer is ""proper"", i.e., left blank (indicating ""proper"") it registers as correct...but the explanation says ""why is this AN IMPROPER..."". &nbsp;Please advise. &nbsp;Thank you. &nbsp;",4
+3910,1373549319,"don't let it bother you,  [REDACTED]. hang in there, prof/g",1
+3127,1372311474,Thanks! I got it.&nbsp;,1
+1712,1370445205," [REDACTED]: please see the announcement titled ""chapter 1 quiz...""",1
+244,1369438761,"Thanks,  [REDACTED]! I'll do that.",1
+3181,1372362696,"Thank you so much for all of the help, it finally all clicked and came together at once. I'm amazed I was having such difficulties but I guess sometimes my brain just isn't firing on all cylinders!!&nbsp;",2
+4865,1375451511,"Is this a substantially different question than the one asked in Q. 4? In other words, are we not solving the same integral that we did in Q. 4, but setting the answer to $$\frac{1}{4}$$ and $$\frac{3}{4}$$ respectively?Edit: Never mind, I figured out my problem, which was to miss the negative in the exponent. Short answer: yes, this is the same question as question 4, with different values for $$m$$.",2
+4303,1374259439,"I got integrate(1/2 * r^2 * d theta) for dA - because Each triangle (""wedge"")'s base is r*d theta and height is r. I see that you put extra theta somewhere. After you fix that, you will be fine.",2
+3329,1372553241,"The field of physics is so broad, it's hard to say what else you'll need to learn, without knowing what type of physics you're interested in.One thing I might suggest: Go to some university's physics department's website, read through it, and maybe even download the curriculum. This will give you insight into what subjects you'll want to learn.",2
+1768,1370499974,"Isn't the use of L'Hopital's Rule to evaluate&nbsp;&nbsp; $$\displaystyle \lim_{x\rightarrow 0} \frac{\sin x}{x}$$ a form of circular reasoning, for the reason that in order to compute the derivative of $$\sin x$$, one would have already known how to evaluate $$\displaystyle \lim_{x\rightarrow 0} \frac{\sin x}{x}$$ in the first place ?Similarly, use of Taylor expansion in this case would also lead to circular reasoning for the exact same reason.",2
+189,1369426405,I don't know if any of you tried either of the challenge problems in the Exponentials homework. &nbsp;I thought the first one was quite trivial but I'm stuck on the second one. &nbsp;I really have no idea where to even start. &nbsp;If anyone could point in the right direction that'd be awesome! &nbsp;Thanks.,4
+196,1369427343,"I'm also stuck at the second problem. Without the $$(-1)^k$$&nbsp;it would be really easy (just $$e^x$$ with $$x = ln 4$$) but this makes it a lot harder. Sure, the $$\sin(x)$$ and $$\cos(x)$$ series representations have $$(-1)^k$$ in them, but those have $$(2k)!$$ or $$(2k+1)!$$ instead of $$k!$$. Can anyone help us a little?",4
+4876,1375461707,"Thanks! I'm going through those videos now (3x speed ;-)I'm pretty sure exploring the essential reasons behind such connections between different areas as the product rule would be fruitful and illuminating and must have some literature.So far I've found this linked from ""generaliations of the derivative"":http://en.wikipedia.org/wiki/Derivation_%28abstract_algebra%29No clear idea but perhaps the topology boundary product rule is some sort of derivation in a product algebra over a ring of sets??Also found this discussion, which I cannot follow at all:http://mathoverflow.net/questions/46252/is-the-boundary-partial-s-analogous-to-a-derivative&nbsp;",3
+4953,1375578966,"Hi  [REDACTED],You may have to use integration by parts for $$\int sin(t)e^tdt.$$ &nbsp;This integral was solved by prof/g in Lecture 22 starting 8 minutes and 33 seconds.",2
+5758,1377313162,"In Lecture 56 near the end you show the Taylor Expansion for arcsin. &nbsp;I believe you have a typo. &nbsp;The $$x$$ term in the expansion should be $$x^{2n+1}$$ not $$x^n$$. &nbsp;Consequently, the accuracy you are looking for should be at $$N=4$$, not at $$N=7$$. &nbsp;",5
+6275,1382747088,"You've got an extra factor of 2.&nbsp;The moment of inertia of the first three particles is, as you say,&nbsp;$$I = m *(r_1^2 + r_2^2 + r_3^2)$$If the the 4 particle system is to have double the moment of inertia of the 3 particle system, then the 4th particle must have &nbsp;the same moment of inertia as the 3 particle system. So $$I_4 = m * r_4^2 = m *(r_1^2 + r_2^2 + r_3^2)$$. &nbsp;Thus, $$ r_4^2 =&nbsp;(r_1^2 + r_2^2 + r_3^2) $$, so $$r_4 = \sqrt{ r_1^2 + r_2^2 + r_3^2 }&nbsp;$$",2
+5346,1376325691,[REDACTED]: they will for some as-yet-unspecified length of time.,1
+6184,1378581108,"The fact that one could use the root test to find the radius of convergence is first mentioned in Q6 indeed, but by looking at how RC was defined, it is not hard to do an analogous procedure with the root test.[REDACTED], you were quite close, but you missed a term $$ \left (\frac{1}{n+1} \right)$$.$$ \displaystyle R = \lim_{n \rightarrow +\infty} \frac{n^n}{(n+1)^{n+1}} = \lim_{n \rightarrow +\infty} \frac{n^n}{(n+1)^{n}\cdot(n+1)} = \lim_{n \rightarrow +\infty} \frac{n^n}{(n+1)^{n}} \cdot \frac{1}{(n+1)} = \lim_{n \rightarrow +\infty} \frac{1}{\frac{(n+1)^{n}}{(n)^{n}}} \cdot \frac{1}{(n+1)} $$So:$$ R = \displaystyle \lim_{n \rightarrow +\infty} \frac{1}{\left(1+\frac{1}{n}\right)^n} \cdot \frac{1}{(n+1)} = \lim_{n \rightarrow +\infty} \frac{1}{\left(1+\frac{1}{n}\right)^n} \cdot \lim_{n \rightarrow +\infty} \frac{1}{(n+1)} = \frac{1}{e} \cdot 0 = 0 $$And then you proceed to check the endpoints. In this case, as the radius is 0, we have only one instead of two.",2
+1367,1370113045,It would be good the page could provide a notification system like facebook's for example.So if you asked a question and someone replied you can have direct access to it instead of having to look for it regarding as the course goes through more and more threads there will be.I know you could be notified by mail but it would be quite more comfortable,5
+4847,1375422950,"I know that r^2 = x ^ 2 + ( y + 1 ) ^ 2 , how do we get to 2 * sin(x)?",4
+5618,1377008976,It was Excellent to be part of this beautiful/informative/skillfull period of learning. Thanx to all the members and Professors.Keep this up.:-)NICE WORK!!!,2
+1826,1370605817,"[REDACTED] and [REDACTED]: if $$k=0$$, the numerator in the formula \[ {n
+\choose k} = \frac{n(n-1)\cdots (n-k+1)}{k!} \] is the empty product,
+which is defined to be $$1$$. If you are uncomfortable with this, separate
+this case from the general one. That is, define $${n \choose k}$$ as above
+for $$k \geq 1$$ and $${n \choose 0} = 1$$.
+
+In a sense, you should think
+of the $$k$$ in $${n \choose k}$$ as ""how many factors I have to take in
+the numerator"". Thus \[ {n \choose 0} = \frac{1}{0!} = 1, \qquad {n \choose
+1} = \frac{n}{1!} = n, \qquad {n \choose 2} = \frac{n(n-1)}{2!} = \frac{n(n-1)}{2}
+\] and so on.",2
+329,1369474101,"I took the compilers course here in coursera and couldn't finish it because it was too time demanding for me at that time. I managed to do two programming assignments, and even though I got perfect scores in both, I spent several several hours on them. I found it was quite challenging, so I would add that course as one of the good ones.",2
+3827,1373378451,"Yes, I noticed on the bonus lecture. But these improper integrals really confuse me.",3
+1978,1370764202,Also answered the first time 101.1.In the calculations necessary to use 3 decimal places:\[ 16 \cdot \sqrt{40} \approx 16 \cdot 6.32 = 101.12 \]\[ 16 \cdot \sqrt{40} \approx 16 \cdot 6.324 \approx 101.18 \],2
+4936,1375556860,"This problem is driving me crazy because when I use the Taylor expansion of ln(1+x) to solve ,I get it right and when I use L&#39;hospital&#39;s I keep getting e^(+infinity). Any ideas why this is happening ? Am I just making a stupid mistake?
+",5
+1653,1370380703,"There is an entirely different way to solve it without using any trig identities and only using methods from the lectures. &nbsp;First note that the Taylor series for the binomial expansion is around zero. &nbsp;Therefore, we have to expand $$cosx$$ around $$\pi/2$$ to allow us to compose them. &nbsp;We end up with the expansion of $$\sqrt{1+cosx}$$ around $$\pi/2$$.Here are the steps in more detail.First use the binomial expansion to get:\[\sqrt{1+cosx}=1+\frac{1}{2}cosx-\frac{1}{8}cos^2x+\frac{3}{48}cos^3x+\text{H.O.T.}\]Now expand $$cosx$$ around $$\pi/2$$ so that we can compose the expansions. &nbsp;The expansion is:\[cosx=-(x-\frac{\pi}{2})+\frac{1}{6}(x-\frac{\pi}{2})^2-\frac{1}{120}(x-\frac{\pi}{2})^3+\text{H.O.T}\]We will combine the two expansions up to $$(x-\frac{\pi}{2})^3$$. &nbsp;I'll skip the algebraic work, but you get the expansion around $$\pi/2$$ which is:\[\sqrt{1+cosx}=1-\frac{1}{2}(x-\frac{\pi}{2})-\frac{1}{8}(x-\frac{\pi}{2})^2+\frac{1}{48}(x-\frac{\pi}{2})^3\]",2
+5662,1377094825,"[REDACTED],Why exactly is$$(E-NI)a_n=C(N^n)$$ ? When did we figure out how to do this (in the video and in the wiki it was just stated as such during the Fibonacci segment).",4
+4494,1374673914,"Again, see&nbsp;https://class.coursera.org/calcsing-002/forum/thread?thread_id=528&nbsp;Algebra is almost identical to previous thread.From 2 to 3: use the fact that $$\frac{x-y}{z} = \frac{x}{z}-\frac{y}{z}$$ to split the fraction, and&nbsp;cancel a common factor, $$\frac{x_n^3}{3x_n^2} = \frac{x_n}{3}$$.From 3 to 4: $$x_n - \frac{x_n}{3} = x_n\left(1-\frac{1}{3}\right) = x_n \cdot \frac{2}{3}$$.",2
+638,1369598437,"Here is what I did.\[\cos(x) = &nbsp;1 - \frac{x^2}{2} + \frac{x^4}{4!} - \cdots,\]\[\sin(x) = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \cdots,\]\[\begin{array}{rcl}\cos(\sin(x)) &amp; = &amp; 1 - \frac{\sin^2(x)}{2} + \frac{\sin^4(x)}{4!} - \cdots \\&amp; = &amp;&nbsp;1 - \frac{1}{2}\left(x - \frac{x^3}{3!}\right)^2 + \left(\frac{x^4}{4!}\right) + O(x^5) \\&amp; = &amp; 1 - \frac{x^2}{2} + \frac{x^4}{3!} + \frac{x^4}{4!} +O(x^5) \\&amp; = &amp; 1 - \frac{x^2}{2} + \frac{5x^4}{24} + O(x^5).\end{array}\]",2
+569,1369575654,"$$\displaystyle J_{0}(x)=\sum_{k=0}^{\infty}(-1)^k\frac{x^{2k}}{2^{2k}(k!)^2}\Rightarrow J_{0}'(x)=\sum_{k=1}^{\infty}(-1)^k\frac{2kx^{2k-1}}{2^{2k}(k!)^2}$$, for x=0 you will get the result.",2
+4784,1375299227,Be thankful you've made it to&nbsp;homework 40 [REDACTED]. I'm just finished with hwk 37. Have no idea how I'll get up to speed and sit exam by Sunday. Am really trying to understand each concept and get the homeworks right like you.&nbsp;Also I'm&nbsp;signed up&nbsp;for the signature track version of the course so am determined to finish and get a decent grade. Looks like the drop out rate to date is almost 50% - sure sign its getting tough!! Hang in there - you sound as stubborn as I am - so I'm sure you will. :),3
+794,1369684171,The problem is find the Taylor series for: $$\arctan(e^x-1)$$my approach is successive substitution using the trig identity:$$\arctan(y)=\frac{e^y-e^{-y}}{e^y+e^{-y}}$$ where y = $$e^x-1$$first I got:&nbsp;&nbsp;$$e^x-1 = x+\frac{x^2}{2}+\frac{x^3}{6}$$then I got: &nbsp; &nbsp;&nbsp;&nbsp;$$e^y = 1+x+x^2+\frac{2x^3}{3}$$&nbsp;and &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;$$e^{-y} = 1-x+\frac{x^3}{3}$$putting these together using&nbsp;$$\arctan(y)=\frac{e^y-e^{-y}}{e^y+e^{-y}}$$&nbsp;&nbsp;above I got:&nbsp;$$\arctan(e^x-1)=x+\frac{x^2}{2}+\frac{x^3}{6}$$ &nbsp;which is the same series as&nbsp;$$e^x-1$$ aboveis my reasoning circular in some strange way??,4
+1269,1370022432,"Hello everyone. Could anyone tell me how option A and option C does not fall in the domain of the given function? [0,root(2)] and [root(2),infinity]&nbsp; ::&nbsp; All the points in this interval while being substituted for 'x', result in a real number. Isn't this the essential principle in finding out the domain? And also option D which is [-root(2),0] has points in it such as -1 which while substituted for x, results in root(-1) which is a complex number and thus shouldn't be a part of the domain!! Please help me out here. thank you :)&nbsp;",4
+2065,1370827983,"so what is the 1 - cos x part (it seems to not be clear in this thread)?:
+x^2/2!&nbsp; + x^4/2
+or
+x^2/2! - x^4/2or
+-x^2/2! + x^4/2?
+
+I know that with the cos x taylor series is:
+1 - x^2/2! + x^4/4!
+
+And we have 1 - cos x
+1 - (1 - x^2/2! + x^4/4!)
+
+So shouldn't 1-cosx be equivalent to
+- x^2/2! + x^4/4!",4
+4547,1374773258,"Given the parametric equations $$x(t)=t^3$$ and $$y(t)=t^2$$, in order to compute the surface of the solid of revolution around the x axis we can use the formula $$\displaystyle2\pi\int\limits_{-\frac{3}{2}}^{\frac{3}{2}}y(t)\cdot\sqrt{\left(\frac{\mathbb{d}x(t)}{\mathbb{d}t}\right)^{2}+\left(\frac{\mathbb{d}y(t)}{\mathbb{d}t}\right)^{2}}\;\mathbb{d}t$$.",2
+3197,1372387103,"I got 166 also, and it registers as right . &nbsp;No big deal ... what I'm more concerned about and that I like some help with conceptually is how Newton's method helps. &nbsp;When I think of Newton's method I think of inching my way into the root by the method. &nbsp;How does that solve for t &nbsp;here??... specifically, how does knowing a root help obtain t? &nbsp;I can sense I'm missing something super simple but in plain words what is it. &nbsp;My only remote instinctive guess would be something about using an inverse function in some way (??). &nbsp;",4
+5223,1376064305,[REDACTED]: I think it was [REDACTED] who drew the dragon. My drawing skills don't get that far...,1
+4831,1375397341,Can somebody help me with the process you must go through to decide if a function can be a probability density function? I don't know how to apply the two qualities to these homework problems,4
+1418,1370167290,what happens if you try to find the Taylor-series of the function $$(9+x^2)^{-1/2}$$?,4
+5808,1377466562,"Are the tips for Quiz preparation for various chapters&nbsp;at:&nbsp;&nbsp;https://class.coursera.org/calcsing-002/class/indexequally applicable to the final examination ? &nbsp;Since the final is going online tomorrow, this is probably the last chance to ask ...",5
+3445,1372720805,"From what I understand Big O acts as a vacuum cleaner that takes up all of the leftover equations or H.O.T. terms.I thought at first it was a realm or a mathematical hierarchy but this assumption was wrong.Linearity I think it what they strive for so the equation balances but with all the higher junk shoved to Big O. This is what I got out of it anyways.In higher maths and physics you strive for a balanced equation and it seems to me like this is what they are asking. In reality all we're doing here is similar to sitting along side a Flemish Master who takes considerable time on his oil painting .If we learn anything, we just learn a style or kind of brush stroke or technique for that particular day.In time, if you stay with the course these brush stroke all eventually come together. Even if you don't understand the course so much, it is vitally important that you enjoy yourself, as&nbsp;you possessing the quality of inner levity will help you later on.Nothing is perfect and at any time a day can be pretty much a mess no matter how one takes it. This is why it is vital that you keep your sense of humor.",3
+1129,1369877108,"Thanks guys,I just figured out the expantion part of the homework. I rewatched the&nbsp;lecture and went back to the homework. I think I was just making it harder than what it seemed.",2
+2689,1371742237,"It would be nice if that was stated in the video lesson. It frustrates me and reduces my trust in any course (especially as I am completing the first homework),&nbsp;to be told an answer is incorrect, rather than to be more accurately told it is literally outside our educational domain. I reviewed the video a number of times before referring to external references, then finally answered the question incorrectly anyway.Or perhaps more easily than editing the video, just change the comments on the 'incorrect answer hint' for the related answers on this homework to something like ""For the purpose of this course, restrict domain and range to real numbers. This topic is covered further in 'Complex Analysis'."" That wouldn't save my time, but would at least preserve trust.",6
+1767,1370499744,"First, recall that\[\cos(x) = 1 -\frac{x^2}{2} + \frac{x^4}{4!} - \frac{x^6}{6!} + \cdots.\]We are looking to compute $$f(x) = a_0 + a_1x + a_2x^2 + \cdots$$ where $$f(x)\cos(x)=1$$. &nbsp;By looking at\[\left(1 -\frac{x^2}{2} + \frac{x^4}{4!} - \frac{x^6}{6!} + \cdots\right)\left(a_0 + a_1x + a_2x^2 + \cdots\right) = 1\]we have\[\begin{array}{rcl} a_0 &amp; = &amp; 1 \\ a_1 &amp; = &amp; 0 \\ a_2-\frac{a_0}{2} &amp; = &amp; 0.\end{array}\]Thus we have&nbsp;\[f(x) = 1 + \frac{1}{2}x^2 + O(x^2).\]",2
+1698,1370435687,"Thanks [REDACTED],I guess the issue I was struggling with was that I thought that Big O was intended to approximate the asymptote of a function. While both ln(x) and&nbsp;$$x^5$$ are technically correct, the latter doesn't provide much insight as to the nature of the function. The assertion by Prof [REDACTED] was excellent, however, at least for me, because it encouraged me (via a challenge) to explore the meaning of Big O that I otherwise would have not done.Very stimulating (read humbling) course!",2
+667,1369614286,yes. especially in chapters 1 and 2.prof/g,1
+2760,1371859457,"sorry. it's not easy to convert it all to pdf. maybe someday i willconvert all the video slides into a pdf book, but either of theseprojects would take a lot of time and effort.",1
+5231,1376072279,"Hi. I just found the course this morning. Seems like exactly what I'm looking for, but I have no illusions that I'd be able to work through it quickly enough to take the final exam in a couple of weeks. Will the material (specifically the video lectures and homework, since the exam dates have already passed) be left open and available after the course ends? Thank you!",5
+5135,1375890054,"If you were to search quiz data a bit harder - you may see a certain section hitting 10s each time - that has more or less stayed almost a fixed number - so that would be the ""limit"" as t-&gt; infinity for this class - these guys who are doing very well will most likely stick with it (not of course to infinity but for next few chapters - certainly !) - so this will resemble a ""hockey-stick"" i.e. an exponential decay....",2
+6130,1378167462,"As a teenager, physicist Freeman Dyson wanted to understand Einstein's physics. Some popular physics books of the time would say things like: ""But if you really want to understand Einstein you have to understand differential equations"". So Dyson bought the book ""Differential Equations"" by H.T.H Piaggio, and spent an entire summer vacation studying it and working through its hundreds of problems. He sometimes studied 14 hours a day. Differential equations are certainly important in physics, and this course has given us a great start, which can allow us to confidently work through any textbook on ODE's and PDE's.And here is Leonard Susskind, with his opinion on why DE's are so important to the physicist:http://www.youtube.com/watch?v=WOIYWsUXc7ARob",3
+164,1369421830,"The problem summary: When I started the first lecture, it was fine until it go to the e section, then the video froze, while the audio continued to go.&nbsp; If I manually advanced the cursor I would get a new screen shot, but it remained frozen at that place, while the audio talked on,&nbsp; Lecture 2 just stayed frozen on the opening screen and never showed the content, although the audio played merrily along.&nbsp; ???Steps to reproduce:Screenshot:",5
+5375,1376392814,The formula of Trapezoid Rule is wrong in the leture. The starting point should be n=0 but not n=1. ,5
+19,1369396172,It's the second time that I take this course. Only got 55% last time...So I wanna learn more...And I'm planning to be involved in more discussions here. Thanks again to Prof. [REDACTED] to offer&nbsp; this class again so soon!To introduce myself..I'm a high school student here in [REDACTED].emm.Just like a junior in America...I'm 16 years old ...I love maths and Physics and also music and literature...You can call my English name [REDACTED] to make it easier to use...Really looking forward to the following classes!,2
+5156,1375931010,"I can't believe I missed the big event on Monday: a special moment in time at 11:23, 5/8/13 ... Fibonacci time?[REDACTED]p.s. Here in [REDACTED], unlike in the U.S, the day comes before the month when specifying the date, so that 5th August 2013 is 5/8/13",2
+760,1369670269,"Can somebody please help me with this? To be completely honest, I'm confused on most of the homework and I keep getting nonsensical answers, and I've watched the lecture twice. If somebody can show me a step-by-step solution to this, I think I'll be able to generalize the principles to the rest of the problems. Thanks very much in advance.",5
+2302,1371094512,"An example where you can kind of do it is with the exponential, but it's mostly a matter of sneakiness and algebra.\[e^x = 1+ x + \frac{x^2}{2!} + \dotsb.\]Replace $$x$$ with $$x-a$$, and you get\[e^{x-a} = 1+(x-a) + \frac{(x-a)^2}{2!}+\dotsb.\]Now, you have a series about $$x=a$$ on the right. To correct for the left, multiply both sides by $$e^a$$, which gives\[e^x = e^a + e^a(x-a) + e^a\frac{(x-a)^2}{2!} + \dotsb.\]This matches what you would get by doing it the long way.In general though, the trouble is similar (indeed symmetric) to the one you run into if you were to, say, try to convert a series about $$x=a$$ to one about $$x=0$$ by expanding and collecting terms:\[f(x) = c_0 + c_1(x-a) + c_2(x-a)^2+c_3(x-a)^3+c_4(x-a)^4+\dotsb\]When I try to expand and collect like terms, what is my constant term? Expanding gives\[c_0 -ac_1 + c_2a^2 - c_3a^3 + c_4a^4 - \dotsb\]So for the constant term (and every other term in fact)&nbsp;we would have to add up infinitely many things. Hope that helps.",2
+1276,1370025415,[REDACTED]: what is the limit of $$\arctan x$$ as $$x \to +\infty$$ ?,4
+4166,1373967987,"i suggest the following experiment.&nbsp;please obtain a stack of one of the following items:books (not too thick!)index cardsoreo cookiesmatzohs(other items will work as well...)after stacking them into a neat cylindrical tower, ""shear"" thetower by pushing the individual items sideways, being carefulnot to topple the tower.&nbsp;has the volume of your tower changed? no... why? because the""volume element"" -- the horizontal slices -- have not been&nbsp;deformed at all.&nbsp;final step: depending on ingredients used, read, write, or eat.",3
+5866,1377604678,"Quote of the Day - August 26, 2013Ã¢â‚¬Å“...you gotta be confident in your ability, so throughout my whole life I was playing 12th grade when I was 9 and just being out there with the older guys, just going out and having fun.Ã¢â‚¬Â&nbsp;- Mike Trout excerpt from CBS2 Los Angeles interview with Kristine Leahy. Michael ""Mike"" Nelson Trout (1991-), nicknamed ""The Millville Meteor"", is an American professional baseball outfielder for the Los Angeles Angels of Anaheim of Major League Baseball (MLB). Following an initial stint with the Angels in 2011, Trout had a breakout season in 2012, unanimously winning the American League (AL) Rookie of the Year Award, winning a Silver Slugger Award, and finishing runner-up to Miguel Cabrera in the AL Most Valuable Player (MVP) Award voting. He also led the league in several statistical categories, including runs scored, stolen bases with 49, and wins above replacement with a 10.4 mark.&nbsp;",3
+4078,1373827359,"According to the video lecture on Complex areas, the ""first intersection"" point in the Themodynamics graph is:&nbsp; $$ \displaystyle V = (\frac{B_0}{A_1})^{1 - \gamma} $$However, if my calculation was correct and complete, it seems it should rather be:&nbsp; $$ \displaystyle V = (\frac{B_0}{A_1})^{\frac{1}{\gamma - 1}} $$Thoughts ?Details below:Given $$ PV = A_1$$ and $$ PV^\gamma = B_0$$&nbsp; $$ \displaystyle \frac{A_1}{V} = \frac{B_0}{V^\gamma}$$&nbsp; $$ \displaystyle V^{\gamma - 1} = \frac{B_0}{A_1}$$&nbsp; $$ \displaystyle V = (\frac{B_0}{A_1})^{\frac{1}{\gamma - 1}} $$",4
+2262,1371049607,"Hi [REDACTED],The definition of $$e^x$$ is the following:$$\sum_{k=0}^{\infty} \frac{x^k}{k!}$$So, the expansion is all right, since it will result in the equation $$(1 + x + O(x^2))$$. What's your point?",2
+1479,1370230194,$$$$ \[ { (-1) }^{ k } \] $$$$My old nemesis... we meet again...,1
+2234,1371010370,"on the problems like core #4 (Newtons method of approximating sqrt10), something about the initial steps is fuzzy to me. &nbsp;I'm working with it fine and getting right answers, but I'm not quite sure about why we're doing a few of the steps. &nbsp;I vaguely get that we're introducing an ""a"" as a way to express that we're considering two points ""a"" and ""x"", but the particular step of setting $$\sqrt { a } =x$$ is unclear to me. &nbsp;What's the reasoning behind that step? &nbsp;As follows...$$for\quad \sqrt { 10 } \Rightarrow \quad a=10\\ hence,\sqrt { x } \Rightarrow \sqrt { a } =x\quad \Rightarrow \quad a={ x }^{ 2 }\\ \Rightarrow f(x)={ x }^{ 2 }-a\quad \Rightarrow \quad 0={ x }^{ 2 }-a\quad ...\quad \\ $$",4
+1644,1370374306,"The issue occurs at your second equal sign. &nbsp;Note that\[\ln(1+2x) +C&nbsp;= \int\frac{2\,dx}{1+2x}\quad\text{and}\quad \ln(1-2x) +C = \int\frac{-2\,dx}{1-2x}.\]The important bit is that you missed the $$2$$ and $$-2$$ in the two numerators. &nbsp;Once you fix this you can combine your final two series, and then use the simplification I have above.",2
+5023,1375705156,"[REDACTED], wow. A stats book without normal distribution is quite untrustworthy, but anyway, you should take a look at Harvard's 110 Stats course at Youtube by professor Joseph Blietzstein. I became a great fan and I suggest this course any time I can.",2
+4264,1374156410,"well, for Q1 you can use triple integrals *if you insist* butthere's really no need.&nbsp;the hint in the problem is to describe the shape. onceyou see what the shape is, you can use your knowledgeof cylinders, cones, etc., to quickly compute the volume.&nbsp;if you *must* solve it by an integral, try choosing a&nbsp;volume element given by a slice at constant $$z$$ andintegrating &nbsp;$$A(z)dz$$. you'll find that $$A(z)$$ is notso bad to figure out.&nbsp;Q2 is not all that different in spirit. good luck!",2
+3637,1373106336,"Hi all,Apols in advance if this is a silly question. I understand why \begin{equation}\int_{x=-L}^{L} \sin x &nbsp;\mathrm{d}x&nbsp;= 0\end{equation}However, it's possible to choose the upper and lower limits in such a way that the definite integral result is negative (discarding the symmetry constraint of the limits).So what exactly does this mean? I've always thought of an integral of a function as the area under the curve defined by that function. So what is the physical interpretation of negative area?&nbsp;",4
+1775,1370511249,"I know, it's a side question, but..what's the typeface used in video presentations?It's wonderful!",2
+4642,1374989467,"Hello~Would the final exam still open after the deadline Sep 1? I
+am not asking for a certificate after Sep 1, of course. I just need the
+percentage-- hopefully it'll be decent...I jump in here late, and am Running to keep up with some
+other Coursera courses and this one. I saw the MITx: 8.01x Classical Mechanics
+at Edx (https://www.edx.org/course/mit/8-01x/classical-mechanics/853);
+one of its prerequisites is ""Single Variable Calculus""... ""At
+MIT, 18.01 Single Variable Calculus is a co-requisite for 8.01 (the two courses
+can be taken in the same semester).&nbsp;""
+
+I find this course so much more interesting... Well anyway, when
+will the answers for the final exam be posted, if they would? Will the final
+exam still be automatically graded after Sep 1, at least before the release of
+the answers?? Until when????",5
+5013,1375678408,erf is in Microsoft Excel too!,1
+2737,1371838978,"Hi [REDACTED] - I'm looking at quiz 2, and this confirms what I suspected since Homework 1 - [REDACTED]'s lectures are not even a shadow of what we need to know for the homeworks and especially the exams. I took Calc almost 30 years ago - and there is a lot that I simply don't remember.&nbsp; I suspect&nbsp; there is also a lot I never learned in the first place. I did very well on the Diagnostic Exam - but that apparently was not enough. At this point, I'm going to drop out and spend very concentrated time to go&nbsp; through an entire calculus textbook. Would you allow me to start again in a year or two? Would you allow the $49 fee I paid for Signature Track be credited for the next time? (Even if not, I can pay again.)",5
+5048,1375753720,"I can't seem to simplify past the last point mentioned. Specifically, I don't know how to go about simplifying the complex square root with h in the denominator into anything remotely resembling the answer bank. Can someone help me through?",4
+4161,1373955878,"Reading through the wiki explanation of how to calculate the area of a circle using a wedge-shaped area element, I understood everything except this line:If we model that as a triangle with height , and width , we can ignore the higher order terms in the Taylor expansion of that area.After some consideration, I think what this means is that the tiny sliver of area between the base of our area element and the outer edge of the circle can be ignored. But if that's true, why can it be ignored? How can our answer be exact without it?",4
+338,1369478519,"Dear Sir,Few questions in&nbsp;Homework 2 (core) have more then one correct answers, but I can choose only one answer. I see radio boxes near the answers instead of check boxes:Kind regards,Vitaliy",5
+1941,1370727470,I'm blanking on how to do this problem. &nbsp;I know I have to work from the inside out. &nbsp;and the Taylor series of ln(1+x) = x - x^2/2 + x^3/3 etc. &nbsp;Then I use that as my input for the Taylor series of sin(x) = (1 - (x - x^2/2 + x^3/3 + O(x^4))^3/3! - (x - x^2/2 + x^3/3 + O(x^4))^5/5!. &nbsp;Then I have to cube all of it? &nbsp;I know that the coefficient of the x^3 term will be 1/3! * d^3 f/df^3. &nbsp;Can someone give a tip? :),4
+5339,1376321924,"if you please, what is \[ \lim_{n\to\infty}\frac{1}{n} \]",4
+4413,1374475959,"I believe one of the ""correct"" answers has a typo in it. The one that has&nbsp;$$\sqrt{h^2+(1+R \cos{\theta})^2}$$ for its ""triangle height"" should instead have&nbsp;$$\sqrt{h^2+(R+R \cos{\theta})^2}$$. That way the triangle height can range from $$h$$ to $$\sqrt{h^2 + (2 R)^2}$$, as expected.",5
+433,1369511173,That was a lot simpler. &nbsp;thanks for the help,1
+134,1369414959,"I'm happy to say I had no difficulty with the diagnostic exam. &nbsp;However, I'm a bit bemused by one question:Evaluate&nbsp;cos2Ãâ‚¬/3Ã¢Ë†â€™arctan1. Be careful and look at all the optionsfor two reasons. &nbsp;Why were we asked to be careful? and Is 5Ãâ‚¬/4 not a second solution to arctan1 for which no option is provided?Thanks for any clarification.",4
+974,1369781401,"That kind of re-indexing is done to save ink or write a summation that is clearer to read. &nbsp;Can you see that the two expressions are equivalent?Since the summation is starting from 1 instead of 0, all of the terms that were written with a $$k+1$$ post script can be shifted to just $$k$$.As for the $$(-1)^k$$ that becomes $$(-1)^{k+1}$$, that is just to ensure that all of the negative terms from the original summation that began at $$k = 0$$ are still negative when the summation starts at $$k = 1$$. &nbsp;That part could have just as easily been written as&nbsp;$$(-1)^{k-1}$$ in the re indexed summation.If you are still troubled by it, try re-indexing starting from $$k = 2$$ and someone should stop by to make sure you've got it alright.",2
+3652,1373127346,"Thanks! I think I got it, but with n=2,3 &quot;i&quot;is...?
+",2
+2264,1371052081,"[REDACTED] -&nbsp;Have no fear! &nbsp;This representation that you mentioned just lists the first two terms and then encapsulates the remaining ""junk"" (namely, quadratic terms and higher). &nbsp;Note we could do the same, say for&nbsp;$$\frac{1}{x-1} = 1 + x + x^2 + ... = 1 + x + O(x^2)$$ or&nbsp;$$sin(x) = x - \frac{x^3}{3!} + \frac{x^5}{5!} -+ ... = x - \frac{1}{6}x^3 + O(x^5)$$. &nbsp;In a sense, Big O is a symbolic way of representing the higher order terms that we don't want to write. &nbsp;",2
+2673,1371711464,I can't understand why $$\binom{a}{0} = 1$$How can we plug in k=0 into the formula $$\binom{a}{k} = \frac{a(a-1)\cdots(a-k+1)}{k!}$$ ?,4
+5508,1376732056,"Yeah, now I can read it. However I would have never realiced I could prove it that way, the proof is very clear.",2
+4341,1374342002,"The problem is stated as, ""Compute the area between the regions&nbsp;$$r \leq 2\sin(\theta) \mbox{ and } r \leq 1&nbsp;$$"" which I take be the intersection of the two regions, the green area:&nbsp;However, if I understand correctly, subtracting the area within the lower circle from the area in the upper circle as $$\theta$$ goes from $$\frac{\pi}{6} \to&nbsp;\frac{5\pi}{6}$$ only calculates the yellow area. &nbsp;Nothing wrong with that, but the problem as stated is either somewhat misleading or I haven't understood correctly. &nbsp;Thanks.",4
+4997,1375660229,I'm not sure I know where to begin.&nbsp; Any hints would be greatly appreciated. ,4
+3660,1373143099,"The polynomial long division (for me) resulted in 1 + 1/(x^2-4), which did not yield a listed answer after integrating.I got x + 2ln|x^2-4| + C.Anyone know where I went wrong? &nbsp;Thanks!!",4
+1501,1370266526,"For the first one indeed, try to take the formula as a polynomial, and try to take the taylor series, you'll see that the Taylor expansion for a polynomial is the polynomial itself.The second one looks fine, seems to be some expansion around $$x=1$$The third one, look at the first term, it's not a polynomial term it's a log. Every taylor series has as its terms something of the form $$a_i x^k$$ where $$a_i$$ is the coefficient and $$k$$ is the power.The fourth, it is a polynomial indeed, it's got a constant term, a linear term, a quadratic term and so on.The fifth looks like the second, but if you look at the $$(x-1)$$ power you'll see it's $$k-1$$ and the sum starts at $$k=0 \rightarrow k-1=0-1 = -1$$, and something with a negative power is not a polynomial: $$(x-1)^{-1}=\frac{1}{x-1}$$ if you try to evaluate this at $$x=1$$ ups! we have problems.About the last one, if you evaluate the first option in the exercise at $$x=1$$ you'll get $$1$$ as constant term, in the last choice if you evaluate it at $$x=0$$ you get $$1/2$$ as constant term. So if they're supposed to be the Taylor expansion for the same polynomial I think at list the constant term should be the same.This are the reasons I think :-p in the last one I'm not plenty sure.",3
+4082,1373833167,"I did a little external reading about this since I didn't have a better answer than 'It doesn't converge because it is indeterminate'. &nbsp;This leads to the Cauchy principal value (http://en.wikipedia.org/wiki/Improper_integral#Convergence_of_the_integral and http://en.wikipedia.org/wiki/Cauchy_principal_value). &nbsp;So these types of integrals are typically considered undefined or divergent, but you can calculate a Cauchy principle value by 'subtracting the infinities'.This is also a good read&nbsp;http://www.math.utexas.edu/users/rusin/408D-AP/CPV.pdf",3
+4112,1373891393,"thanks for the feedback, [REDACTED]. i really appreciate your hard work.&nbsp;i agree with you that the estimated workload is on the low side, andi should update that. my apologies! we have to provide these estimatesalong with the course description long before the course is actually&nbsp;built. and, even once the course is made, you don't really know how longit will take to do the assignments.&nbsp;i'll change that estimate for the future runs of the course.&nbsp;concerning what the course covers:i'm glad you've noticed that [REDACTED]'s course goes deeper than what [REDACTED]offers. my covert plan is -- through plying you with comic-book illustrations,video-game references, and slick animation -- to get you to learn calculusat a deeper level than what the competition (ahem) does. i hope that otherswill compare this course to what else is out there and find it both harderand more delightful.&nbsp;i do argue, however, that a year of high-school calculus (AB level) or onesemester of intro-level college calculus is sufficient background for thiscourse. the first semester of college calculus is roughly equivalent to a&nbsp;year of high-school level calculus, if i recall correctly.&nbsp;that's not to say that anyone finishing high school calculus will find mycourse *easy* -- far from it. but it should be *doable* with work.&nbsp;best wishes &amp; thanks for the feedback. prof/g",2
+5276,1376179415,Use any method to prove or disprove convergence.I did not select this as a series that converges and it got marked wrong.&nbsp; Apparently it's supposed to converge.&nbsp; Am I missing something?,4
+4151,1373931407,"I know its outside the scope of the course, but does using complex exponentials make all these integral trig substitutions any easier?  
+",3
+4324,1374304924,"Sorry for the digression, but who would have thought calculating the length of a paper roll can be so involved and complicated ? &nbsp;Sure we will be reminded of Calculus everyday now :)",2
+573,1369576758,The idea was to show that the seies for the $$sin(x)$$ obtained through derivations is the same as the series obtained earlier with the Euler formula.,2
+4169,1373975038,"[REDACTED]$$ÃŽâ€œ(\frac{1}{2})=Ã¢Ë†Â«_0^Ã¢Ë†Å¾t^{-\frac{1}{2}}e^{Ã¢Ë†â€™t}dt$$ Ã‚Â and Ã‚Â $$Ã¢Ë†Â«_0^Ã¢Ë†Å¾e^{Ã¢Ë†â€™t^2}dt=\frac{Ãâ‚¬}{2}$$letÃ‚Â $$u = t^2$$then du = 2t dx, as t =Ã‚Â $$u^\frac{1}{2}$$, du = 2$$u^\frac{1}{2}$$, dt =Ã‚Â $$\frac{1}{2}$$$$u^{-\frac{1}{2}}$$duSo,Ã‚Â $$Ã¢Ë†Â«_0^Ã¢Ë†Å¾\frac{1}{2}u^{-\frac{1}{2}}e^{Ã¢Ë†â€™u}du=\frac{Ãâ‚¬}{2}$$By changing the variable to t and taking constant out from the integralwe get,Ã‚Â $$\frac{1}{2}Ã¢Ë†Â«_0^Ã¢Ë†Å¾t^{-\frac{1}{2}}e^{Ã¢Ë†â€™t}dt=\frac{Ãâ‚¬}{2}$$Hence,Ã‚Â $$ÃŽâ€œ(\frac{1}{2})=Ã¢Ë†Â«_0^Ã¢Ë†Å¾t^{-\frac{1}{2}}e^{Ã¢Ë†â€™t}dt$$ =Ã‚Â $$2\frac{Ãâ‚¬}{2}
+$$ =Ã‚Â Ãâ‚¬",2
+2606,1371584580,"Quote of the Day - June 18, 2013Ã¢â‚¬Å“A little nonsense now and then, is cherished by the wisest men.Ã¢â‚¬Â&nbsp;Ã¢â‚¬â€¢ Roald Dahl (1916Ã¢â‚¬â€œ1990), was a British novelist, short story writer, poet, fighter pilot and screenwriter. Born in Wales, to Norwegian parents, he served in the Royal Air Force during World War II, in which he became a flying ace and intelligence officer, rising to the rank of wing commander. Dahl rose to prominence in the 1940s, with works for both children and adults, and became one of the world's best-selling authors. He has been referred to as ""one of the greatest storytellers for children of the 20th century"". In 2008 The Times placed Dahl 16th on its list of ""The 50 greatest British writers since 1945"". His short stories are known for their unexpected endings, and his children's books for their unsentimental, often very dark humour. His works include James and the Giant Peach, Charlie and the Chocolate Factory, Matilda, The Witches, Fantastic Mr Fox, The Twits, George's Marvellous Medicine and The BFG.",3
+4150,1373928762,"Is the solution provided by [REDACTED] in the ""Solutions to Chapter 3"" correct (cos(3lnx)/xsqrt(1+lnx))?I believe I got this problem ""marked right"" on the quiz as (-1)/sqrt(1+pi). &nbsp;However, I'm assuming it is wrong based on the quiz solution described by [REDACTED] above. &nbsp;Sorry if you answered above, it was not clear which solution was correct, I may be missing something obvious. &nbsp;Thanks!",4
+206,1369428079,\[ \lim_{n \to 0} \frac{x^2}{e^x} \],1
+2295,1371085213,"\[ \lim_{x \to a}
+\frac{f(a+h)-f(a)}{h} \]\[ e^{x-h} \]",1
+301,1369459417,"Do solve these problems by any means, but pump yourself up. This way, the quiz will feel as if it's a piece of cake. ",2
+5510,1376744368,"[REDACTED] I'd be interested in knowing this, too, but I'm wondering if I can ask you to go backwards a step or two. Why is the ratio test for R the reciprocal of what we usually use for the ratio test?",4
+1274,1370025041,[REDACTED]: your grade in the last offering of the course and in this one are completely separate.,2
+2075,1370837201,...I believe it is worth reading this topic on the [REDACTED] Wiki.....on he Higher Derivatives lecture....you have to use the absolute value of the second derivative...,2
+3211,1372410042,"Hi [REDACTED],Thanks a lot. Yep - finally figured out where I was going wrong. I thought we can take the form $$ \dfrac{dx}{dt} - Ax = B $$, and then equate the terms $$ \dfrac{dI}{dt} = - Ax $$ without multiplying by $$I$$. Thanks for clearing up the confusion! Much appreciated.[REDACTED]",2
+3747,1373227533,"I actually have a slide rule that I used 'back when' for some electronics classes. But having awesome computer power for a comparable price to that slide rule, is a big reason for going back to get a new look at math that has been underused for years. Good luck in your endeavors!&nbsp; ",2
+4307,1374261496,"Yes, you could solve this with discs/washers. &nbsp;But you would need to change the variable of integration. &nbsp;You would need to integrate in $$y$$ and not $$x$$. &nbsp;That would change the domain of integration to $$[0, 1]$$. &nbsp;You would have to use an annulus volume element $$dV = \pi (r_{outer}^2 - r_{inner}^2) dy$$. &nbsp;Rewriting for $$x$$, you get $$x = 2 \pm sqrt(1-y)$$ which should give you the $$r$$ you need.",2
+5681,1377118315,"Question, Why did you use the ratio test? Aren't we supposed to use the alternating test? thus show that the limit of the sequence is equal to zero? (The ratio test showed that the series: sum((n!)^2/(2n)!) converges but we haven't said anything about the alternating series...am I wrong?)",4
+5256,1376133489,"I hope there's an actual reason for it, not just a technicality about how it's not the correct negation, and so isn't a contrapositive, but is still logically correct",4
+2097,1370862148,"In this section a Ãâ‚¬ is missing in front of the $$h^2$$ term,
+it should be $$A(x+h)=\pi(x+h)^2=\pi x^2+2\pi x h +{\color{red}\pi} h^2$$.
+
+    
+
+In the penncalc wiki&nbsp;article
+    we see the following:
+
+ 
+    DISC
+
+    The area of a disc of radius&nbsp;
+        &nbsp;is&nbsp;
+        . If the radius is increased by&nbsp;
+        , the result is
+    
+        
+    
+",5
+3809,1373337073,I'd like to share with all of you the good news: today I successfully defended my dissertation!,2
+3850,1373413629,"p(t): is the position function, it gives the position of the particle at time t.p'(t)=dp/dt:&nbsp; is the change in position with respect to time.&nbsp; It tells you how fast a particle is moving at time t. The partice is at rest when ""the change in position with respect to time"" is zero; or p'(t)=0That's why you need the derivative.&nbsp; when you let  p'(t)=0 and solve, you're getting the value of t that corresponds to a zero change in position / no movement / at rest. ",2
+1058,1369832628,"Yes this course is more application specific, but we can get an intuition as to why we are doing this random stuff!The best in my mind is thinking about matching derivatives at a point. The more derivatives you match, the better is the approximation.So what we are actually doing is making the derivatives of increasing order same. I could go on writing, but as always, Sal Khan does an awesome job of explanation.http://www.khanacademy.org/math/calculus/sequences_series_approx_calc/maclaurin_taylor/v/maclauren-a...",3
+3501,1372813697,From&nbsp;$$dx / dt = t^2$$ I move the x's to the left and t's to the right so it looks like this:&nbsp;$$dx =  t^2dt$$. I take the integral so I'm left with&nbsp;$$x + C = t^3 / 3$$ from which i get the solution:&nbsp;$$x = t^3 /3 - C$$Where am I wrong?,4
+4964,1375609668,"oh no! that *is* frustrating...that's a very good suggestion, which i will pass onto the coursera engineers. i apologize that you raninto difficulties with the submission.prof/g",2
+657,1369612549,"Hi everyone, I took calculus 1.4 pi &nbsp;decades ago &nbsp;:-) &nbsp; I'm starting a masters in applied statistics degree this fall and need a calculus refresher before I get this. &nbsp;This is flexible enough to let me do my other life duties and also work on the subject. &nbsp;Nice to meet you all. &nbsp;I'm trying to learn Spanish at the same time so welcome any Spanish chat buddies.[REDACTED]",2
+369,1369493091,"When I see ( 1,8) does that mean one through eight, *including* one and eight, or only the numbers between one and eight?&nbsp; Same question for [1,8].",4
+654,1369610177,How's this&nbsp;$$\binom{-\frac{1}{2}}{k}$$ solved? I mean when when the upper number is nagative and a fraction,4
+353,1369486852,"""arctan"" is the unique version of $$\tan^{-1}$$. The range of arctan is $$(-\pi/2,+\pi/2)$$. You can't go outside that range.",2
+285,1369451707,"Hello! My name is [REDACTED], I live in [REDACTED], and I am currently a rising junior in high school ([REDACTED]). From 6th grade to my current grade I have been able to familiarize myself with mathematics through pre-calculus. I have had the honor of learning some basic calculus with my pre-calc teacher, but I would like to learn more. This next year I will be going into Calculus AB AP, and I would like to be able to learn the subject matter beforehand. Outside of school I enjoy tinkering with robots, devices, etc. I also enjoy computer programming, sci-fi novels and TV shows, and hanging out with my friends. In the future I'm planning on majoring in physics and/or mechanical engineering, so I'm really excited for the applications chapter!I'm typically introverted, but if anyone wants any help or wants to just say hi I'm always happy to help / converse to the best of my abilities! :D",2
+982,1369785559,"When it comes to numerical computations and finite memory a lot of things can happen!Here is another problem for you, try to plot $$f(x)=\sin(x)+\arcsin(x)$$ first for x=-0.8..0.8 and then for x=-1..1. Can you explain why the first plot is a straight line?&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $$\boxed{\text{Plot 1}}$$ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;$$\boxed{\text{Plot 2}}$$",2
+3093,1372260036,"[REDACTED]: that the perceived strength of the stimulus grows linearly in
+time can be interpreted as saying that the rates of change of $$P$$ and
+$$t$$ are proportional to each other Ã¢â‚¬â€that is, $$dP = c\,dt$$ for some
+positive constant $$c$$. Substituting this back in the O.D.E. given, you
+get \[ c\, dt = k \frac{dS}{S} \] But this is precisely saying that $$S$$
+grows exponentially in time!",2
+986,1369792910,"I'm on this material pretty well, but I'm having a mental block on # 1 of HW3 challenge. &nbsp;Can somebody just explain it. &nbsp;Isn't the 11th degree term the 5th derivative (and 6th term of the series)? &nbsp;Isn't the 11th derivative in the 22nd degree term (which is the 12th term of the series)? &nbsp;How it the answer -10! &nbsp;??&nbsp;",4
+5652,1377065155,"By the way, nice post! I have seen several threads where confusion about this topic has come up, and I think it is great to have these ideas fleshed out.",2
+1756,1370483700,Which challenge problem are you having trouble with?,1
+5273,1376172747,"You are correct to think it looks a lot like $$\Delta = E-I$$.  Recall that $$E$$ and $$I$$ are operators that work on sequences.  The operator $$E$$ does a left shift and $$I$$ leaves the sequence alone.  Thus, for example
+\[ a = (1,2,1,3,4,5,\ldots)\]
+then we have
+\[ Ea = (2,1,3,4,5,\ldots)\quad\text{and}\quad Ia = (1,2,1,3,4,5,\ldots).\]
+The operator $$\lambda I$$ multiplies each element by $$\lambda$$.  So we would have
+\[ 3Ia = (3,6,3,9,12,15,\ldots)\]
+and more generally
+\[\lambda I a = (\lambda,2\lambda,\lambda,3\lambda,4\lambda,5\lambda,\ldots).\]
+The operator $$E-\lambda I$$ thus takes a sequence and subtracts the scaled version from the left shifted version:
+\[(E-3I)a = (-1,-5,0,-5,-7,\ldots)\]
+and more generally
+\[ (E-\lambda I)a = (2-\lambda, 1-2\lambda,3-\lambda,4-3\lambda,5-4\lambda,\ldots).\]Thus $$\Delta$$ is just $$E-\lambda I$$ when $$\lambda =1$$.",2
+3961,1373624359,"class,we had an incident last night of a student posting screenshotsof his solutions for quiz 3.&nbsp;as you know, that is a serious violation of the honor code.&nbsp;that student has been banned from this course.&nbsp;so many of you are putting so much&nbsp;hard work into this course. i respect you deeply for it and will do whatever i can to makesure that your efforts are not cheapened by cheaters.&nbsp;",1
+4815,1375361793,"Hi there! I agree it is easy to missinterpret h, but I don't get what you mean by express the problem with similar triangles. How would you do it? I think it would be enough, in order to decrease the confussion, to leave more space between the right line and the point of the needle",2
+2084,1370847602,Possibly you're confusing two times one over three factorial for two and a third. &nbsp;Here's part of the algebra worked out:$$(x -\frac{1}{3!}x^3 + H.O.T.)^2$$$$= x(x -\frac{1}{3!}x^3 + H.O.T.) -\frac{1}{3!}x^3(x -\frac{1}{3!}x^3 + H.O.T.)&nbsp;$$$$= x^2 -\frac{1}{3!}x^4&nbsp;-\frac{1}{3!}x^4&nbsp;+ H.O.T.$$$$= x^2 -2 \cdot \frac{1}{3!}x^4 + H.O.T.$$$$= x^2 -\frac{2}{3 \cdot 2 \cdot 1}x^4 + H.O.T.$$$$= x^2 -\frac{1}{3}x^4 + H.O.T.$$...the video should explain the cancellations from there. &nbsp;,2
+4914,1375491211,"I hope people hang in there with the course.  It&#39;s not easy but what a fantastic opportunity.  World class content and professor and all at no cost.  Keep going and get everything out of it that you possibly can!  Really, what do you have to lose?  It&#39;s a great mental workout.
+",2
+5854,1377553385,"I thank you for this challenging and wonderful course. I took Calculus 30 years ago, hating Calculus class but loving Calculus and Physics. I still don't like summation nomenclature, but the series behind them are remarkable. I, too, have struggled since I have not used Calculus in so long, but I see the world I work in through a Calculus-like frame of reference--I practice Medicine. This course helped boost and inform the ""movings of life"" (physiology) for me. I loved the sections dealing with differentials and how to build a mathematical model that reflects what is going on around us (or in us); I just wish there were no such things such as arctan--what a monster. To help folks like me, a small homework section of mundane practice below the level of core would be helpful. For me, the algebra was as tough as the Calculus. I didn't know when I missed a homework problem if if was a Calculus mistake or an algebra (or trig) mistake. After this course, I still see around me rates, and rates divided by rates, and feedback loops that cause things to oscillate, and areas under the curve. But now I'll start looking around in my new polynomial world (minus the summation nomenclature). Thanks.",3
+3101,1372273709,Deleted. Thanks for reporting.,1
+5863,1377573093,"The $$ f^{(n+1)}(x)  $$ notation stands for the $$ (n+1)-th $$ derivative of $$ f(x) $$. As $$ f(x) = e^x $$, then $$ f^{(n+1)}(x) = e^x $$. The theorem tell us that the value of the error is:$$ E_n = \frac{f^{(n+1)}(t) \cdot |x|^{n+1}}{(n+1)!}$$So:$$ E_2= \frac{e^t \cdot \left|\frac{-1}{2}\right|^3}{3!}$$The problem is that the theorem doesn't tell us what the value of $$ t $$ is. It just tell us that $$ t $$ is some value between $$ x = - \frac{1}{2} $$ and $$ 0 $$, inclusive. But, with that information, we can calculate the maximum value that $$ e^t $$ can attain. In the interval $$ \left[- \frac{1}{2},0\right] $$, it is $$ e^0 $$. Thus, we can get an upper bound of $$ E_2 $$:$$ E_2= \frac{e^t \cdot \left|\frac{-1}{2}\right|^3}{3!} \leq \frac{e^0 \cdot \left|\frac{-1}{2}\right|^3}{3!} = \frac{\left|\frac{-1}{2}\right|^3}{3!} = \frac{1}{48}$$Refer to http://calculus.seas.upenn.edu/?n=Main.ApproximationAndError for more info.",2
+3798,1373317278,"I must be completely missing something, but how did you get that result when integrating right side of that equation? I understand where $$\frac{a_{0}}{2}L$$ came from, but why did you just drop those therm after the summation sign? I understand I should try to &nbsp;algebraically manipulate them and then use those facts given in question, but I just don't have idea how would I do that.",4
+5463,1376621704,"just hit me I could have used taylor series. &nbsp;So I did and voila, got my 1/n AND my bigO of 1/n^7. &nbsp;",2
+1932,1370717384,I approached the problem similarly to [REDACTED]. &nbsp;One must not over apply L'Hopital's Rule.,2
+601,1369584355,Is there a glossary of this notation on the WEB? I'm guessing we'll encounter more situations where the notation is unfamiliar to those of us that don't have a strong background in mathematics.,4
+5067,1375796519,there's nothing there yet. sorry: we simply have it&nbsp;as a placeholder for the future.prof/g,1
+5914,1377788284,"No idea, but they are easily downloaded for permanent archiving.&nbsp;",1
+1569,1370317768,"Throughout the course of the homework, specifically Lecture 4, I have noticed that I am consistently making mistakes when multiplying series. Obviously, FOIL doesn't quite work here. Does anyone have any tips for getting this accomplished?",4
+2439,1371329700,"Yes, $$x^2 + y^2 = R^2$$. &nbsp;Just let $$y$$ be $$f(x)$$.",1
+1466,1370215793,"Interesting note too, those books were for Math 322, year long third year honours. &nbsp;I stayed in it only a few weeks, had a full time job and carrying too many courses. &nbsp;Kept the Philosophy, dumped the math, needed the time.Math education has improved greatly over the last five or six decades. &nbsp;Probably not smoothly, but at least they teach math in high school now (sarcasm). &nbsp;My first year honours math course was all trig. &nbsp;Calculus started in second year. &nbsp;Sputnik had gone couple of years earlier, so North American education got examined, and examined, etc. &nbsp;Entire STEM spectrum improved, but slowly.",2
+5318,1376272402,"The problem summary:I on the select all that&nbsp; apply questions I get a check mark indicating a correct response, and yet I get zero credit. Also, next to the check mark indicating a correct answer there is a suggestion in the comments field implying of an incorrect answer.Steps to reproduce:Screenshot:",5
+2271,1371059957,"Hi prof. [REDACTED]/all class,I'm glad that I signed up for this course. I'm graduate student in the biomedical sciences. I believe that learning by using graphs is a great way to teach this course. Thank you for the course and I hope we all benefit from the &nbsp;overall objectives of the course.[REDACTED]&nbsp;",2
+2201,1370971947,the wiki is open to the public; it is located on [REDACTED] serversand does not require a coursera account to access. i hopeto keep it permanently open (and perpetually improving...).[REDACTED],2
+3962,1373625628,"... A physicist then walks in and says ""An awful lot of you people are about to be disappointed.""&nbsp;",1
+3203,1372394905,So why is it zero? Is it because it will be something like:x=11/1 = 1x=101/10000 =&nbsp;0.0001?&nbsp;Just want to clarify this intutiton.,4
+5007,1375666470,"[REDACTED], it seems that many of us struggle with the course horribly (I, for one, gave up on doing Challenge Homework and almost at the point of giving up on Chapter 4). I am certain that a lot of people would really appreciate another session, because it would allow us to dive deeper into the rich material that you present and vanquish your treacherous Challenge Homework (and Calculus as a whole!).",3
+1486,1370243622,"I'm a [REDACTED] mech.e major and just wanna verify if the diagnostic exam is worth any credit? I know the calculus, so there's no reason for me to take it unless it counts toward my final grade.&nbsp;",5
+2325,1371148185,"I got the correct answer...but I'm curious if anyone has any insight as to why we MUST convert this in to radians for the calculation to work...other that ""it's not the right answer. For example. I first tried\[ \cos{66} = \cos{60} + -\sin{60}*6 \] but my answer was way way off... I understand the method, just not why it is relegated only to radians...",4
+2985,1372138855,"At&nbsp;http://calculus.seas.upenn.edu/?n=Main.IntegrationByParts, in the hidden answer of $$\displaystyle \int e^x \cos(x) dx$$, the last two steps were:&nbsp; $$\displaystyle 2I = e^x sin(x) + e^x cos(x) $$&nbsp; $$\displaystyle&nbsp;I = \frac{1}{2}(e^x sin(x) + e^x cos(x)) + C&nbsp;$$The constant $$C$$ seems unnecessary, or what am I missing ?",4
+2931,1372081283,"to all who have contributed to this thread with encouraging words for those who struggle -- including [REDACTED], [REDACTED], [REDACTED], & [REDACTED] -- i award to you the badge of merit for encouragement:",2
+3822,1373367027,"Please be careful: Wolfram Alpha is not bug free (as every software ever written). Take this example: the linear ODE from lesson 19. Let's use a more simple example, using the constants a and b as the functions A and B:
+\[\frac{dx}{dt}=ax+b\]
+Using the integrant factor, this equation is solved:
+\[x=e^{at+c_1}\int be^{-at-c_1}dx\]
+which is
+e^(at+c)*integral(b*e^(-at-c))
+in Wolfram Alpha.
+Well, try put that formula in Alpha, you can check in the results that the input matches the integral we want, but the solution according to it is $$-\frac{b}{a}$$ , while we all know it is
+\[c_2e^{at+c_1} -\frac{b}{a}=Ce^{at} -\frac{b}{a}\]
+
+So, it appears that Alpha is simply ignoring the integral constant $$c_2$$, resulting in the disappearance of an important term.Edit: corrected by suggestion of [REDACTED].",3
+6119,1378159265,"@DiÃƒÂ©: the grading scheme for this type of question has been the same throughout the course, so it should have not come as a surprise. Since no grading scheme is perfect, we had to settle for the one that we believe is best.",2
+4540,1374757556,"Well, you shouldn't have any trig stuff because when you add x'^2 and y'^2, you get some common factors multiplied by sin^2 and cos^2. So the trig stuff goes to one. That being said, this problem is driving me crazy. I've spent hours on it, and I'm not coming up with anything that can be manipulated into one of the answers. The algebra is a nightmare. Argh.",6
+2320,1371141375,Yes,1
+5762,1377319961,"Here's how I think about the arcsin example. &nbsp;The key assertion is that when $$x={1 \over 10}$$, $$a_{n+1}&lt;\frac{a_n}{1000}$$ for $$n\geq3$$ from the other coefficients. &nbsp;I think that is wrong. &nbsp;I think the other coefficients net to about $$1$$ and we only pick up $${1 \over 100}$$ of accuracy per additional term so that&nbsp;$$a_{n+1}&lt;\frac{a_n}{100}$$, although we still only need to go out to the $$x^7$$ term to get the desired accuracy. &nbsp; If we start by assuming that&nbsp;$$a_{n+1}&lt;\frac{a_n}{100}$$&nbsp;(I'll come back to showing that at the end), then&nbsp;\[\begin{array}{l}a_{N+1}&lt;\frac{a_N}{100}\\a_{N+2}&lt;\frac{a_{N+1}}{100}&lt;\frac{a_N}{100^2}\\a_{N+3}&lt;\frac{a_{N+2}}{100}&lt;\frac{a_{N+1}}{100^2}&lt;\frac{a_N}{100^3}\\\text{etc}\end{array}\]Therefore:\[E_N=\sum_{n=N+1}^\infty a_n &lt; a_N \sum_{n=N+1}^\infty (\frac{1}{100})^{n-N}=a_N \sum_{n=1}^\infty&nbsp;(\frac{1}{100})^n\]But we know that the right side is a geometric series so we know that:\[E_N&lt;a_N \sum_{n=1}^\infty&nbsp;(\frac{1}{100})^n=a_N (\frac{1}{1-{1 \over 100}}-1)=a_N{1 \over 99}\approx a_N {1 \over 100}\]Note that when $$x={1 \over 10}$$, $$a_3 = \frac{1*3*5}{2*4*6} {1 \over 7}({1 \over 10})^7={15 \over 336}10^{-7}&lt;10^{-8}$$. &nbsp;Therefore:&nbsp;\[E_3&lt;a_3 {1 \over 100}&lt;10^{-8}{1 \over 100}=10^{-10}\]which is the desired accuracy. &nbsp;Recall that $$a_3$$ is the $$x^7$$ term.Now all that's left is to show that&nbsp;&nbsp;$$a_{n+1}&lt;\frac{a_n}{100}$$ for $$n\geq3$$. &nbsp;That's easy to see by taking the ratio of terms:\[\frac{a_{n+1}}{a_n}= \frac{2n+1}{2n+2}{1 \over 100}\frac{2n+1}{2n+3}\]Evaluating at $$n=3$$ (the $$x^7$$ term), we get\[{a_4 \over a_3}=\frac{7}{8} \frac{7}{9} 10^{-2}={49 \over 72}10^{-2}&lt;10^{-2}\].Note that the ratio is not $$&lt;10^{-3}$$ as asserted in the lecture.",3
+2394,1371289817,"Hi,This might be silly as no one asks: what is the difference if I change sinx = e^(-ycosx) &nbsp;to &nbsp;ln(sinx) = -ycosx &nbsp;before applying implicit differentiation ?&nbsp;The result is different from directly applying implicit differentiation. Is there any reason I can't do it this way ? &nbsp;Many thanks for your input.&nbsp;",4

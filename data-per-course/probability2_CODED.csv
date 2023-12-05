@@ -1,0 +1,443 @@
+id,post_time,post_text,Urgency_1_7
+98,1444636370,"It's[REDACTED]from [REDACTED].I'm a programmer, working with data privacy, more precisely with web personalization problems. I hope to refresh my knowledge here. ",1
+189,1445305555,why does this derive this way?,3
+183,1445252005,"I'd like to get an explanation of question 1, infering to a variety of properties from the axioms. Guess you can't without giving away the question?",4
+488,1447521577,Any tip for question 7? I'm a little lost on how to consider the profit and expectation formula given under the hint.,4
+632,1449009829,Thank you all for participating in the repast.  My fellow chefs and I are delighted that you've enjoyed it.  Good fortune in all your endeavours.,1
+442,1447284962,"Hi, as I rechecked I think these two questions are fine now...I hope I am not missing anything:]",1
+325,1446469829,"[REDACTED], the mathematical relations alone tell us how to ponder this problem, and not what our interpretations of its wording entail or do not entail. Intuition is insufficient, and that is perhaps a major lesson of this exercise. That there are obfuscations in problem statements is not hard to fathom. To specifics, then: The condition is that some ordering of the genders of the children is not irrelevant, and it is assumed you know why this is. The lesson is on computing probabilities given specific side information.When you say the problem is a 'bad teaching example', you claim that you're not getting your money's worth from this free education. You may easily request to have your money back.",2
+552,1448315210,"Tough, but clear. Lectures delivered in depth and with a lot of enthusiasm.Thanks a lot for your time.",1
+623,1448975539,"Prof. [REDACTED] is da' man! (And so too are the rest of the chefs,  [REDACTED]etc). I have covered some of this material previously and used this course as a refresher but I felt that I had learned new ways of understanding these fundamentals - like how one of Kolmogorov's deputies lamented on teaching measure-theoretic probability, ""I teach the students first year and they don't understand, I teach the students another year and they still DONT understand, then I teach them the third year and I finally understand!"" Prof. [REDACTED], I really appreciate your gargantuan effort in providing us with such detailed lectures spread across many hours (whereas other professors may choose to summarily shorten and let the student gain their own intuition, as is the case with the majority of courses).Here's wishing you the best of karma and hoping our paths cross once again.Cheers[REDACTED]",2
+96,1444625998,"Prof  [REDACTED], I recently purchased [REDACTED]. Its early days, but so far I'm finding it most enlightening. I'm trying to work through the relevant parts of the book in parallel with the course, which suits my study style.The cover of the book makes reference to selected solutions being available at the Cambridge University Press website. The website tells me that the solutions are available to lecturers only in order to preserve secrecy. This is understandable, but I wonder whether say the solutions to odd-numbered (or other selected) problems might be unveiled as some other texts do?[REDACTED]",1
+492,1447584523,My solution was more direct. If A is the event you acquire item 1 and B the event you acquire item 2 then we require:$$P(A^c \cup B^c)=P(A^c)+P(B^c)-P(A^c \cap B^c)$$$$=2(1-\frac{1}{n})^t-(1-\frac{2}{n})^t$$,2
+509,1447827535,"I am not familiar to write mathematical notation in this post, but had a question on the ideas from?REDACTED] 's in developing the relation in Tableau 11.1:f:Goal is to find the equivalent confidence level:P{|sn/n-P| &gt;e}and started by summing the area under the bad region (outer bound) ?i.e?(np - e) and (np +e).At one point we sum up from 0 to n which means we sum up the entire region.This means the final relation we get 1/(4ne^2) is for the whole region.When we started we needed the area under bad region, then why are we calculating the complete area.What is the use of the probability which says it is less than?1/(4ne^2)? The advantage we got is to avoid knowing p!Any hints! Thanks in advance!",4
+45,1444174158,"Let's shift from career or season statistics for the pros, and give a player 100 free throws at a session. (A player like me who will miss more than he makes, say 40 - 50% shooter).Will I have a run of 5 successes?How does it factor in for me if my average is 30% made. (More likely average.)",3
+72,1444330455,"As [REDACTED] has pointed out, the course does offer a Statement of Accomplishment.  The conditions are spelt out in the posted Course Information: click on the The Ingredients: Information button at the top of the sidebar.  You will find other useful information about the course here as well and it may save you some time if you glance over the course organisation and format.",2
+447,1447293456,"Hi [REDACTED],I computed $$4.68\times 10^{-5}$$ for the probability of [REDACTED]'s streak as given in the problem. In my postinghttps://class.coursera.org/probability-002/forum/thread?thread_id=137,I went-on to additional calculations and bemusement on this subject.",1
+215,1445474580,I fully understand that not everyone has the time to absorb all the material I'm presenting and that some students would like to have the opportunity to take in the lectures at a more relaxed pace or refer back to the material at a later time.  With this in mind I intend to archive the video lectures so that course participants may access them at any time even after the course session has officially drawn to a close.  Some session-specific segments such as the Discussion Forum will be closed after the session ends but the video lectures themselves will continue to be available.  I hope this helps.  Best wishes in your studies. — [REDACTED],1
+295,1446077619,"The 8.1:d video lecture deals with it in great detail so this is not to important but I wanted to let you know.Slide 6 of the corresponding presentation says:$$P(A|B) = P(B|A)$$ iff $$P(A) = P(B)$$.So, the right hand side is missing: ""or $$P(A \cap B) = 0$$""",4
+449,1447310320,great work[REDACTED]!!!,1
+425,1447168937,"in my solution X=Xerses has blues eyesin Q5 P(X) is calculated formally taking into account all the genotypes$$P(X)=\sum_j P(X | G_i)P(G_i) = \frac{1}{4}$$in Q6, knowing that Xerses has blue eyes I've restricted the parental genotypes to the subgroup of four, but I think that you get the same results also including formally all the genotypes.",2
+538,1448223322,"There is a problem when both children can have name Jane.In this case the events ""Jane a boy"" and ""Jane a girl"" are intersecting, so we can't use the theorem of total probability like in solution:P(at least one boy | Jane a girl)*P(Jane a girl)+P(at least one boy | Jane a boy)*P(Jane a boy)=1/2*2/3+1*1/3=2/3What is the solution in this case?",3
+381,1446875154,"Given in lecturecase1(AA, Aa) -&gt; Aa the conditional probability is 1.1/2.case2In case of (Aa,Aa) -&gt; Aa the conditional probability is 1/2.1/2 + 1/2.1/2It is unclear when probability becomes 1/2 and when it is 1.Initially it was clear but the introduction of case2 confused me completely.If any one has understood better please clarify!Thanks in advance!",4
+113,1444740416,"Hello,I don't quite understand what it means in terms of coins; why is HT indistinguishable from TH, whearas the coins themselves are distinguishable (H and T).Thanks for explaining in more detail.Kind regards, [REDACTED].",4
+22,1444032752,"Hello All,My name is [REDACTED], usually people call me [REDACTED] or simply[REDACTED].I come from [REDACTED] - hot country (literally hot), there is no rain for the past months. I am taking this course since I want to refresh my memory on statistics.Nice to meet you all and please take care of me! :)Cheers[REDACTED].",1
+556,1448344786,"The correct answer is included in the list,[REDACTED].",1
+540,1448225910,"OK, thanks",1
+486,1447513483,I'm wondering whether the problem can be approached with the methods seen in week 6.,3
+387,1446928658,"Maye it would help if you explain how you came to that expression - it makes it easier for us to see how you've gone wrong. But, for example, for the first hand you've got 4 possible aces, and the other 12 can be anything other than the ace. So that gives $$4{48\choose 12}$$ options. Then move on to the other hands.",2
+420,1447163904,for P(X) I've used the value calculated in Q5I've obtained it graphocally but it's equivalent to apply the total law of probability:P(X) = sum P(X|Gi)*P(Gi)Gi =? $$i^{th}$$ parental genotype,2
+577,1448639173,"
+Here you go, [REDACTED].  The combinatorial character of the problem is seen most clearly by application of Lord Kelvin's method of images (pioneered originally by D. André).  You can set up a simple recurrence by arguing about what the penultimate step should be.
+
+Here is an example of the kind of result that is attainable.  Consider a slightly simpler setting where the gambler starts with wealth \(k\) and plays indefinitely until his wealth runs out. The probability that, starting with an initial wealth of \(k\), the gambler is bankrupted at the \(n\)th step is given by
+\[
+  \frac{k}n \binom{n}{\frac{n+k}2} 2^{-n}.
+\]
+(Of course, \(n\) and \(k\) must both be even or both odd: the gambler can be bankrupted on step \(n\) only if \(n+k\) is even.)  This is the famous ballot theorem of W. A. Whitworth.  Verify:
+ If \(k = n\) we obtain \(2^{-n}\), as we should, as the gambler must lose at each of \(n\) trials in succession to lose on the \(n\)th step.
+ If \(k=0\) then the probability is zero.  The gambler starts out bankrupt and will not be allowed to play.
+ If \(k=1\) it is already non-trivial.  The probability of bankruptcy on the \(n\)th trial, given a starting wealth of \(k=1\), evaluates to
+\[
+  \frac1n\binom{n}{\frac{n+1}2} 2^{-n}.
+\]
+(Of course, \(n\) has to be odd.)  The expression does not simplify further but is estimated well by Stirling's formula when \(n\) is large by
+\[
+  \frac1n\binom{n}{\frac{n+1}2} 2^{-n} \thicksim \sqrt{\frac2\pi}\cdot n^{-3/2} \qquad (n\to\infty).
+\]
+The asymptotic equivalence sign \(\sim\) means that the ratio of the two terms tends to one as \(n\to\infty\).  So, if the gambler starts out with unit wealth his probability of lasting until the \(n\)th step before being bankrupted decays quite fast with \(n\): the probability decays as \(n^{-3/2}\).
+ 
+You can fold in a termination condition where the gambler leaves with his winnings if his wealth reaches a given value \(N\) into the framework as well.
+
+If you can get hold of a copy of my text in the local library you will find the analysis for simple random walk in pages 44 46 and 244 247; biased versions and return to the origin questions are in pages 546 560.  Feller's books also contain this material though it's spread across volumes 1 and 2.
+",2
+579,1448646928,"
+It's a nice question,[REDACTED].  What Boole gives us at the expense of a weaker bound is freedom from constraints.  And it is already remarkable that something can be said in such generality.  Adding constraints on the colouring should in principle yield tighter results.  But it's not going to be easy.
+
+The simplest example of the kind of simply connected scenario you have in mind is in the unit circle \(\mathbb{S}^1\) where we can directly see the necessary and sufficient condition on a monochromatic arc length to include the vertices of a square.  A similar argument improves the 50% lower bound on \(\mathbb{S}^2\) and should be tight.  If we break simple connectivity then things get ugly very fast and I don't know of any general results which are tight (but a Google search may be worth trying).  I could imagining using something like the Lovsz local lemma or, perhaps better even, Janson's inequalities to improve on Boole's bound but this will entail at minimum second moment calculations.  And without sufficient structure these will be unpleasant.  \(\mathbb{S}^1\) should provide a sanity check for an approach.
+",2
+186,1445276672,"I use Microsoft Paint. It is easy to make shapes, add colors, and text. The copy and paste feature is very useful too.Allow me to toot my own horn- [REDACTED]Paint comes in the same bundle as Excel and Word. If you don't have Paint, you can probably google to get it or a clone as a free download. Edit: Paint is included with windows.",1
+31,1444084599,"All those factors may be relevant, but that doesn't mean there is no randomness.  I'd expect an individual's performance to involve random fluctuations on top of a more slowly varying value that is affected by all the factors you mention.  No matter how many other things that are kept constant, nobody is going to be able to perfectly repeat an action all the time.
+",2
+235,1445589466,Aah I get it now. Thanks a lot and apologies for the repetitive clarification,1
+303,1446145454,"Hi [REDACTED],I've alerted Professor [REDACTED] to this potential error.",3
+275,1445891990,"Basically, why using boundary conditions work, is that you have a multiple choice answers. If you know the probability for p=1 and p=0 you can always check the suggested solutions for those probabilities. IF you did the calculations right, you can then disprove some solutions. Even if you did them wrong if you have solutions on the line 0=&lt;p=&lt;1 with higher probability then one or lower then zero you know its wrong. - It also helps you to intuitively get it right.",2
+473,1447410847,"The table has first column (deaths per corps-year,k) and the next two columns stating frequency table. Not clear what the frequency means. The last column has N*Po(k,lambda). What is this value (expectation=?). But the expectation is calculated for a binomial distribution = n*p.On the above posts on p=?. Is it to do with a single atomic mass p=1/280 - good hint - urn (corps-year)?I have too many questions is this small clip .Too many kicks from the horses ;-).",4
+71,1444329320,"From my point of view the urn model has another background, where we remove k items from urn with n elements and try to calculate the probabilty of a special selection. With these background I understand the term replacement. Which means her: put back the selected elements before you remove the next k items. But I'm not a native english speaker. So I'm not sure in our case. From my point of view 2.1B and 2.1C represent both combinations of ordered samples of k elements from n elements. Ordered samples means, if I have a set$$S=\{a, b, c, d, e\}$$ with $$n = 5$$ elements and select ordered samples of $$k = 3$$ elements, then $$(a, b, c) \neq (b, a, c)$$ and are different samples.There are also other combinations without regard to order, where $$(a, b, c) = (b, a, c)$$ like 2.1.D.2.1.B shows the case, where ordered samples with repeated elements are possible, like (a, a, c) or (b, b, b) .The number of possible combinations is then: $$n^k$$2.1.C shows ordered samples without repeated elements, like (b, d ,e ) or (a, c, d).The number of possible combinations is then: $$n^\underline{k}$$So in 2.1.B the second urn? is selected repeatedly.In 2.1.C flag sticks are selected once only.Or ???",4
+360,1446790916,"Thanks [Redacted], my doubt is about the value we must assume for n: n=154 or n=56*154?
+",3
+476,1447419009,thanks [REDACTED]! I was quite sure of the equivalence but I'didn't find the identity yet.,1
+151,1444999839,"One thing to note is that in this question the ordering does not matter. Because all that we care 
+about is whether a seat is empty or occupied, and how the empty and 
+occupied seats are located next to each other. So it does not matter how
+ and in what order some seats are occupied, so long as we know that 
+those particular seats are occupied.",2
+158,1445081671,"I had this idea of Probability Mass functions and Probability Measures as being akin to the notion of tangent vectors and vector fields in geometry.The vector field associates a vector at each point just like the probability measure associates a PMF to each sample point.?Is that a fair analogy?? The normalisation condition however invokes comparison with ""barycentric coordinates"" in Affine geometry.?Would it be possible to build a probability theory without PMF??Also if Probability is a special case of the usual Outer measure, then what would PMF be in terms of measures?? Thanks for this brilliant course by the way.",4
+322,1446439338,"Close call with 20 minutes go go (its, 5.40 in the morning over here).",1
+455,1447347235,"My mistake on the second problem.? I combined P6 and P8 in my head without thinking.? However, saying the questions were worded poorly but the answers were correct is convenient way of denying that the answers are wrong.? Anyway, thanks for you assistance [REDACTED].",5
+229,1445547200,"Not a bad suggestion to do it computationally with the algorithims, but also looking for something that goes over a reasonable breadth of set construction (sample space, event, atomic outcome, etc.)",2
+400,1447074054,I have been taught that the binomial distribution could have 2 modes and not only one. If n*p is not an integer then it has 2 modes. For example if p=0.6 and n=9 then n*p= 5.4 and the modes are at n=5 and n=6.Only if n*p is an integer then it has only one mode at n*p.Am I wrong?Thank you,4
+221,1445500521,"Randomized computational algorithms are a great resource for pondering sample spaces and events. Over in Tim Roughgarden's Algorithms (Part 1) course, you study Karger's mincut algorithm, pretty much right after studying quicksort. They're both randomized algorithms.?If you're not a computer scientist, then this suggestion won't be interesting. Google Markov text. More algorithms, but more broadly interesting.Good idea to start this thread. I'm also hungry for exposure to problems I might not yet have contemplated.An oldie but a goodie:?http://www.drdobbs.com/architecture-and-design/algorithm-alley/184404588",2
+533,1448114264,"I am struggling with problems related to counting. Problems in week 2 of this course seems to require a solid understanding about how many ways I can get a full house or a two pair. I think they are hard.. I might come to the right answer when answer choices are given, but I don't know why this method works and another does not.. I did not quiet struggle with high school MISSISSIPPI problems.. but these are hard. And the more I try, more I am finding out that I lack something basic about counting. My question here is, is there any good book on how to count right. I know sounds ridiculous to a common ear.",3
+276,1445898847,"Not handed in a solution yet, but the whole point is that its a continuing narrative. Prior and posterior probabilites, and the whole point of the ""close eyes again"" iis that he knows only what the coin showed while on the floor i.e. ""show heads"".",2
+590,1448788633,A great course by an excellent teacher!Thank you very much Professor [REDACTED] and supporing staff!,1
+286,1446028973,We are given:?if and only if A and B are independent then:P (A compliment Intersection B compliment) = P(A compliment) * P(B compliment)I could not arrive at the solution after lot of thoughts. I am trying still. If any one know the solution would need some hints not the solution. Thanks in advance!,4
+525,1447998613,"//Q8. What is the probability that you are dealt a ""full house""? (Three cards of one rank and two cards of another rank.)//In Q8, why can't I calculate the probability in the following way?The number of ways I can select 2 ranks out of 13 = $$13 \choose 2$$The number of ways I can select 2 suits from one rank = $$4\choose 2$$The number of ways I can select 3 suits from another rank = $$4\choose 3$$so p should be $$\frac{{13 \choose 2}{4 \choose 2}{4 \choose 3}}{52\choose5}$$I know it is twice the real answer. But why should I divide the expression by 2? Isn't the fact that that the two ranks can be arranged among each other already taken account by $$13 \choose 2$$. My question is how can I tweak my approach and reach the right answer.",4
+522,1447933278,"Q_n can constitute of sequences which end with?T,?TH, THH, THHH, THHHH.So $$Q_n = Q_{n-1} +?Q_{n-2} +?Q_{n-3} +?Q_{n-4} +?Q_{n-5}$$. This looks simpler, and no formidable fractions. To compute S_100 we need nearly 500 operations.",3
+107,1444709255,Corrected. Thanks for pointing this out!,1
+126,1444834572,"Here's one that springs to mind: Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets, by Nassim Nicholas Taleb. ?It's all about how people like to interpret events as being down to their own ability, where they are often just random. ?Entertaining, though I found it much more convincing when talking about the things he's expert in - e.g. financial markets - than when he goes off-piste. ?And he's got one hell of an ego!",1
+628,1448984499,"I'm glad you're hanging in there,[REDACTED].  It is difficult to remind ourselves of the beauty in intellectual endeavour while mired in the demands of our daily work.  Good luck with your studies.",1
+431,1447181854,"Thanks a lot! It is reworded now, so it should be clearer.",1
+432,1447183505,"Thanks [REDACTED]. May be, I come back after studing the Bayes Theorem and the theorem of total probability a little bit.",3
+53,1444227737,"When we say 5 to the falling 3 we mean to take 3 subpopulation without replacement from a population of size 5. So when we are doing 5 to the falling 3, there is no repetition. So shouldn't the answer be just 5 to the falling 3. I do not understand this please help.",4
+523,1447949798,"You can't, because the world of infinite sequences of coin-tosses includes the possibility (certainty) that there are more than 4 tosses. The fact that the first head occurs on the fourth toss includes all the sequences of four or more tosses, so there are lots of these sequences that show a head on the fourth toss, and then keep going. They count as part of the total probability. The larger limit of $$\frac{1}{8}$$ holds when we actually do perform an infinite number of coin tosses. But who has time for that?",3
+197,1445348840,"
+It's a very nice suggestion, [REDACTED].  I'll have to keep it in mind.  Though I don't know if I have the energy to create any more lectures:-)
+
+Distinguishable balls with an exclusion principle in force in urns did actually make an appearance in Tableau 3.1: a in the discussion of the birthday paradox.  Adding Lynden-Bell statistics to the discussion of Tableau 3.2 would add some more gloss to the story.  I haven't really mulled it over but off the cuff I don't think it would be much harder to develop motivation and the story behind it??tellar bodies and gravitational systems provide splendid subject material?? integrating the subject into the narrative would require some more work and thought but the stumbling block is more likely to be my time and energy:-)
+",1
+155,1445019216,And it doesn't matter to get four adjacent places free also?,3
+565,1448438413,"It is nice that there is a video with the complete probability theme song.I didn't find it before week 8, while it is filed in week 0. When was that song composed?",2
+236,1445605312,I think that there are mistakes in answers provided for Q5 and Q15.Q15 - there is a mistake in the last line of the proof. The correct answer is 1/2 - 1/2(n-1)Q5 - provided formula is missing /4! and the correct (or closest to correct) answer is 20%,5
+15,1443998228,"Hi all,I am a mathematics/math education professor but never teach probability. I'm taking this course in honor of my father who recently passed and was a well-known probabilitist. I'm sure it will be enjoyable![REDACTED] ",1
+46,1444174256,"
+I was pleased to see the
+Turing quote '...(perhaps erase)...'.?  I find I can think better with
+a paper and pencil ??which absolutely  MUST have an eraser on the
+end.  Screen and keyboard are poor substitutes.  It may get easier with
+practice, but I find trying to get mathematical symbols on screen
+(using latex, I think it was called) tiresome and reading those
+symbols from the screen difficult, with them being in the wrong 
+relative sizes and in grayscale.  
+",2
+520,1447929184,Professor lectures are awesome and very nutritious. I've enjoyed a lot ?occassionally smiled and learned smoothly.Thank you Professor.?,1
+37,1444154660,"This course seems to be arriving at probability from observation--&gt;experiment--&gt;general definitions/theorems--&gt;proof provided afterward.Is there any material in this course that goes probability axioms--&gt;derivation of general theorems/definition with proofs--&gt;statement of general definitions/theorems?? I think this would be helpful for those interested in understanding how probability theory is rigorously derived/defined (both naively and via sigma algebra).? I don't think the videos necessarily have to do this, but it would be good to have reference material that does.? Can you recommend any?",3
+123,1444803860,It's not necessarily a brute force. In cases such as this you should try some experiments then make a conjecture and finally prove it.The experimentation part is at the heart of problem solving. ?It gets easier with practice. Keep up the good work!?,1
+135,1444889041,"Your way of thinking about the 4-seat sofa might be of some use for answering question 6. (after you have correctly answered question 5)For question 5, just? ""Identify the sample space and the number of elements in it in this chance experiment."" You need to include all arrangements. Regardless of whether the arrangement allows your party to sit together or not.",2
+63,1444295183,"You can review the course organization outline at?https://class.coursera.org/probability-002/wiki/GettingStartedIn particular, review the section labeledGrading PolicyIf you want a verified certificate, check out the link?https://www.coursera.org/signature/course/probability/976260?utm_source=spark&amp;utm_medium=bannerbox",1
+200,1445357160,"Each atom corresponds to a particular sequence of tosses that is part of the sample space.  And we've labelled those atoms by integers according to the following scheme:
+k &gt; 0 means ""k alternating faces, starting with H, followed by a repeat""
+k &lt; 0 means ""k alternating faces, starting with T, followed by a repeat"".
+That means every k corresponds to a specific H/T sequence of length $$|k| + 1$$.  And since each H or T has a probability of 1/2, then the probability of the sequence corresponding to k is $$1/2^{|k|+1}$$.
+",2
+470,1447395787,Thanks [REDACTED]!I've verified both the formulations directly for the cases t=2 and t=3 and numerically for n=10-100-100 and t =1:10.Both expressions seems to give the same answer.Here is my DERIVATION.I'll check further both solutions.,2
+338,1446595741,Question 1A fair coin is being tossed repeatedly. Determine the probability that we observe a run of length?10?at least?100?times.I don't quite understand this question. Don't we have to know the length of the sequence of throws? If I throw the coin 10^200 times it will be more likely that a sequence of length 10 will appear 100 times than if the sequence would only be 10^3.?I must be misinterpreting the question somehow? Thanks for restating it in advance.,4
+51,1444185279,Totally agree,1
+597,1448840316,Thank you very much for the great course.Definitely extremely useful and fun!!Thanks ?to professor [REDACTED] and his team who have prepared this indeed great MOOC !!On any occasion I would suggest this course to friends and people who would like to have better understanding of statistics and probability theory.,1
+501,1447661943,"For other coursera courses, even after the class ends, the video lectures and homeworks are still accessible (just not counted as graded). I'm kinda taking my own time to go through things and am still back working through week 6 material so I too hope to still be able to do this in the coming weeks. ",3
+443,1447285475,"for the 4th child I've obtained 289/324In general the following recurrence should be valid:$$\prod_{k=1,n}P_k=\sum_i P(X | G_i)^nP(G_i)$$where:$$P_k$$ is the probability that the $$k^{th}$$ child is ""bb"" given that all brothers and sisters are ""bb""X is the event: first child (Xerses) is ""bb""$$G_i$$ is the event: parents are part of the?$$i^{th}$$ genotype",2
+463,1447365492,"I mean that we don't know any value for p, we only know the value of?$$\lambda$$",2
+23,1444034778,"Hi everybody.  I'm [REDACTED], a software developer in [REDACTED].
+I've always been interested in probability and some of the counter-intuitive results it throws up.  I've got quite a strong maths (including probability) background so I'm not necessarily expecting to learn that much that's new to me, but it's always interesting to see a different spin on things.
+",1
+380,1446850634,"here is the sn(r) surface for p=1/2, r varing from 2 to 15 and n varing form 50 to 1000",2
+503,1447679613,"Yes Prof. [Redacted] confirmed that the course will be archivied and all the material will remain on line
+",1
+545,1448264847,you are in the previous session of this course ..choose the date of this course accordingly,1
+281,1445963001,This should be a worthy readhttp://www.amazon.com/First-Course-Probability-9th/dp/032179477X/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1445...I haven't read the above edition but I read previous editions of it.? The earlier editions were well structured although some of the sections were incomplete.? I imagine this was cleaned up by the 9th edition.,2
+266,1445847584,"I love these lectures. For the time being, it's the same material I had in High School, but a. high school is a long time ago, and b. I was in a language-oriented program so we never really dug very deep. So content-wise, it's a good refresher, but more importantly, it gives me a great axiomatic base which I hope to build on in a few weeks.You can always start the week with just watching the summaries and the 'test your understanding' bits. If you can follow those, just skip ahead to the next week.As an aside (and I'm trying to keep the gushing to a minimum here), I think the production values are outstanding, and listening to Prof. [REDACTED] being all eloquent and quoting Shakespeare is an absolute treat. Basically, I am following the material, but with so much pleasure that I'd probably keep watching and listening even if I didn't understand anything of it. How different my life would have been if all my math teachers had been like this. (Gushing over now.)",2
+99,1444640346,"There are two ways of looking at the problem, if the ordered pair was for Urn's instead of balls, we could create the tuple as follows$$(u_1, u_2, u_3, u_4, u_5)$$Where $$u_k (1 \le k \le 5)$$ satisfies $$(0 \le u_k \le 3)$$So another answer which is not correct is $$4^5$$. My question is how do we decide if we should choose the Urn view vs the view taken in the lecture (ball view $$(j_1, j_2, j_3)$$).",3
+120,1444790128,"Oh, I see now, the term $$\cup (A\cap C \cap D)$$ was missing from the correct option. It is corrected now. Thanks all!",2
+358,1446771008,"In 1951, when Joe DiMaggio set his record, the season was 154 games (per team). While the length of the season is now 162 games, the use of 154 in the exercise is to compare Joe DiMaggio's accomplishment to chance outcomes at the time he had his streak..To recap, there were 154 games played by Joe's team in 1951: Assuming:- Joe played in all the games- Joe came to bat 4 times per game- his chance of getting a hit on any ""at bat"" was 0.325How likely was his streak of getting at least one hit in each of 56 consecutive games (out of the 154 game season)?",2
+348,1446650562,"
+I've been watching this unfold with some interest.  As [REDACTED] astutely pointed out in his opening broadside, there can be, and is, a pedagogical incentive occasionally for me to heighten a sense of paradox.  Undoubtedly, a pleasant sense of being surprised increases engagement and a desire to learn what may otherwise be perceived as a dry and forbidding subject.  I will use such artifices rarely but with the objective of engagement always in mind.  If overdone, however, it risks confusing the student and may actually deter engagement with the subject.  Aside from such occasional and rare motivational ploys, as a general rule I abhor sophistic arguments and attempt, insofar as I am able, to present the subject to the student in the same clear and pellucid light as I see it, shorn of mysticism and imbued with a sense of wonder at the power and subtlety of simple ideas.  You will have to form your own judgements as to whether I have got the balance right.  
+
+Let me weigh in with two comments on the subject that has been so vigourously debated here.
+
+Language can be tricky and even native speakers may walk away with subtly differing views of what was expressed depending upon their backgrounds, experience, and the linguistic traditions to which they have been exposed.  I cannot claim to be a native speaker of the language but I have taught at [REDACTED] for nigh on 30 years.  And after all this time I still occasionally bemuse, or even outright confuse, my colleagues with a turn of phrase or usage.  My poor students.  For what it is worth, my own interpretation of the disputed phrase is the one that [REDACTED] espouses.  But, as is evident from the impassioned discussion, folks of good faith may come to different interpretations.  So, are we at an impasse?  Not so, I think.
+
+Problems of any heft, especially where there is a real-life application in view, are inevitably couched in language, frequently less than precise, and sadly incomplete in its specification.  But the fact that we do not start with a mathematically precise statement does not absolve us of the responsibility of attempting to model it in a precise, ideally mathematical, formulation.  In developing the model we keep in mind two principles: 1) strip away obfuscating and irrelevant detail; and, 2) take into account all the essential features.  The first is so that we end up with a problem of manageable complexity; the second so that we actually end up saying something useful for the problem at hand.  In practice, these aphorisms are easier to espouse than to put into practice.  In a birthday problem I may make the facile (and factually incorrect) assumption that every year has 365 days and birthdays are uniformly distributed across the year: this strips away pettifogging detail which is not ultimately critical.  But it would be a mistake to assume sampling of birthdays is without replacement as that removes an essential feature of the problem at hand.  And in the question that has sparked this post, my own inclination, naturally, would be to take things at face value with the idea that, for a first cut at least at the problem, how the data were arrived at may be of secondary interest, at least initially, while we set things up and see how they go.  But this is a matter of judgement and good folks may well disagree.  Ultimately, any attempt at modelling must be subject to the dispassionate assessment of the reader.
+
+So, can we eliminate the ambiguity and begin, as [REDACTED]suggests, with a precise mathematical statement right from the start?  There are two objections to this.  The first, as pointed out above, is that most real problems are couched in language and have ambiguity baked into the cake.  While we will of course examine precisely stated toy problems with a view to making a concept crystal clear, for most students the motivation for examining a dry mathematical subject comes from real-world experiences and applications and we may as well learn as we go along that ambiguity is a feature of problems and make our best fist of modelling them.  The second objection is simply that, in my experience, an overly precise attempt at stating a problem not only gives it a patina of artificiality, but, a dry as dust description puts my students to sleep.  So we're back to engagement.  But this is again subjective and a matter of personal preference.  For me, I love mathematical precision, and I simultaneously love language with all its colour and ambiguity.  And I do my best to balance my two loves.
+
+I should say that it delights me to watch students of a subject involved in impassioned discussions for that augurs a level of engagement that is wonderful.  For my part I view myself as a tour guide exposing my students to a beautiful mathematical city.  If I am a good tour guide I may be able to create a story that is fascinating, perhaps even memorable, and imprint the essential mathematical monuments and figures indelibly on the mind.  But this can only be the bare bones of the city in the time available for the guided tour: a short visit to Paris and a view of the Avenue des Champs-?lys?es, the Louvre, Notre Dame, and the Place de la Bastille with, perhaps, a side helping of Robespierre and the Reign of Terror.  To get a true appreciation of the rhythms, contours, and unexpectedly rich and unique aspects of the city, a student will have to immerse herself in it and persist with the exploration well after the guided tour has ended: the small museums, the treasures that can be found in the small bookstores along the Seine, the alleyways in Montmartre, the devotees of Paris St. Germain's brand of football, the storied Roland??arros, and, above all, the cafes.  A really good tour guide could hope to inspire such devotion.  As teachers we all aspire to this though, of course, most of us sadly fall short.
+
+I have enjoyed your discussion and I have no wish to throttle or impede it.  But let me suggest two more problems to add fuel to the fire.
+
+1) In the familial problem suppose that we start by saying that in the performance of a decennial census a household known to have two children is visited by a government employee.  A knock at the door is answered by a boy.  What is the chance that the other child is a boy?  [I could make an argument for any answer between 1/3 and 1 but I'll let you see what you make of it.]
+
+2) A man puts a certain sum of money into one trouser pocket and double that sum into the other trouser pocket.  You don't know what the sums are or how they are distributed ahead of time but you do know that one sum is twice the other.  He then pulls out the money from his left pocket and shows you that he has $x in that pocket.  He offers to give you the money or, if you wish instead, to give you whatever sum is in his other pocket.  What is your best strategy?  [One simple argument might be that the other pocket contains either $2x or $x/2 with equal probability.  So, if you elect blindly to take the money in the other pocket without knowing in advance what it contains then you will make, on average, $$\frac12\cdot \frac{x}2 + \frac12\cdot 2x = \frac{5x}4$$ which of course exceeds $$x$$.  Paradox?]
+
+I will end this post here as I see that I have to go to class now and will end up, no doubt, confusing my doctoral students.  On tap today is a story of history and empire, the peregrinations of a mosquito, a Nobel on explorations of black holes, why two violins are twice as loud as one violin, and what connects all these in the development of the mathematical theory of random walks.  So we should have fun, confusion or no.
+",1
+568,1448542016,"Moving up the thread.Dr. [REDACTED], please give me some advices.Where can the full solution of this problem be found, including the combinatorial solution?",4
+421,1447164719,"$$P(A | X ,G_i ) = P( A| G_i ) = P( X | G_i )$$ comes from the fact that A and X are conditionally independent$$P(A | X ,G_i ) =P(A, X ,G_i )/P( X ,G_i )=\frac{P(A,X|G_i )P(G_i)}{P(X|G_i) \cdot P(G_i)}=\frac{P(A|G_i )P(X|G_i)}{P(X|G_i)}=P(A|G_i )$$",2
+65,1444305282,"Hello all,I have a small question:? Does ""sampling without replacement"" mean:? at most one flag per stick for one distribution and never two or three flags on one stick at the same time?Thank you verry much for your support.",4
+588,1448766445,"Bravissimo, Prof.[REDACTED]! I feel privileged to have the opportunity of learning this material under your tutelage. Most impressive is your level of participation on these forums. Thank you for sharing your love of this subject with the wider audience of a MOOC and for accepting us as your flock away from campus.",1
+326,1446483032,"The way to solve the probability of winning in a game of craps is interesting and complex. I don't think that I could have reached the same conclusion on my own. I want to ask, how can I get the necessary maturity to tackle directly such problems? I would like to know how does a mathematician approaches a formidable new problem. Thank you!",3
+243,1445693857,"Isn't Kolmogorov]'s third axiom $$\sigma$$ - additivity (since we deal with $$\sigma$$ - algebras in this course if I understood it correctly)? https://en.wikipedia.org/wiki/Probability_axiomsIf yes, wouldn't that mean that we have to prove additivity for a finite number of sets? (by using the fact that $$\mathbb{P}(\emptyset) = 0)$$)$$A_i\in\mathcal{F} , i \in\{1, ... , n\}, (A_i \cap A_j = \emptyset)(\forall i\ne j)$$$$\mathbb{P}(\bigcup_{i=1}^n A_i) = [(A_i =  \emptyset)(\forall i &gt; n)] = \mathbb{P}(\bigcup_{i=1}^\infty A_i) = \sum_{i=1}^\infty\mathbb{P}(A_i) =$$$$ \mathbb{P}(A_1) + ... + \mathbb{P}(A_n) + \underbrace{\mathbb{P}(A_{n+1})}_0 + \underbrace{\mathbb{P}(A_{n+2})}_0 + \underbrace{...}_0 =  \mathbb{P}(A_1) + ... + \mathbb{P}(A_n) =  \sum_{i=1}^n\mathbb{P}(A_i)$$Then again, wouldn't the proof that $$\mathbb{P}(\emptyset) = 0$$ also require an countably infinite number of sets, something in these lines:http://i.imgur.com/y4UzMKW.pngwhere (P1), (P2), (P3) are the axioms.Or maybe, is the third axiom shown in the lectures actually two axioms combined into one (example with four axioms) ? :http://mathworld.wolfram.com/ProbabilityAxioms.htmlLast question: Am I overthinking this? :-)",4
+405,1447100456,"Thanks, there was a typo that is fixed. I hope it is fine now.",1
+542,1448244999,"The question is essentially, if I have n breaks, what is the chance that k are repaired? If each break has a probability p of being repaired, this is analogous to flipping a coin with success probability p, n times. Remember seeing this scenario in an earlier tableau?",3
+66,1444306495,"I think 'sampling without replacement' means that once you select a flag from?your collection of flags, you can't put it back and select it again, so that's like one flag per stick. In some distributions, those that permit duplicate entries, you might be able to select something else with the same colors or size as x, but that's not the same thing. Just think about ""without replacement"" this way: If you have T sticks and F flags chosen randomly, after you raise the first one you have T - 1 choices among the sticks that are left, and only F - 1 flags left to raise, and so on... if F &lt; T, then you end up using the falling factorial, and if F = T, it works out exactly to T! (T factorial).",2
+648,1457985941,"Wow. Simply Wow. ?After being a courseran for 2+ years, I have to say that this is by far and large the mosto complete course in this platform. ?It really takes you from zero all the way to infinity (almost), it is really worth investing the time required. ?I was not able to finish the course on time, but I finished a couple of days ago at my own rhythm. ?Prof. [REDACTED] really threw the house thru the window, really didn't left anything hidden, a big THANKS for him and his team. ?Hope to enroll next time.",1
+9,1443856661,Hello from [REDACTED].I like to take courses about math and computer science. I'm looking forward to learn more about probability.,1
+638,1449391670,"Dear Dr. [REDACTED],In September 2014, as a first-year undergraduate, I enrolled in an online MOOC called ""Probability"". At that time, I really had no idea what probability meant, except for the bits that I've learnt in Professor [REDACTED]. I glanced over the first two weeks of material already posted - that was such an incredible long list. Fear of not being able to finish all the material, I quitted this class, hoping to make an eventual return.After that, I started my first year in university, taking honors math as a challenge. Later I also started to study fundamentals of computer algorithms and data structures on my own through MOOCs. I started to get into contact with probability - pdfs, expectations, variance, independence, etc. Some of these concepts, such as expectations, probability as an integral are pretty straight forward, but some are rather more complicated, as I really don't have a good understanding of independence when receiving a crash course on the subject for a proof of an algorithm's efficiency. In any case, I found myself in the need to learn subject in a more ""systematic"" approach, and promised myself to take a MOOC on it.I was excited to find out that this MOOC was back in the fall of 2015. I promptly enrolled and even verified my course work. Indeed, a large of material was covered each week, and sometimes I found it difficult to grasp all content in a short period of time. However, eventually I got used to the pace of the course. I kept on looking forward to each week's material to arrive, simply because of how much it resembled a great novel to me. All concepts are explained in thorough depth, derived and proved step-by-step and illustrated using fascinating examples, and new materials are connected to past content very well. The homework problems really get one to think about the concepts and go over the mathematical derivations - there is nothing more that a amatuer fan of mathematics can demand for, except perhaps for the course to span for a longer period, so that one can have a chance to explore all the material thoroughly.As this course was coming to an end, I realized that I have gained more than the foundations in probability from this course. I am even more intrigued by the beauty of mathematics, and keen on continuing my studies in more advanced probability/mathematics. Furthermore, I also started to tackle new problems and ideas at a slower pace to absorb the content better. The course has provided me with many invaluable insights, much beyond what is stated in the course syllabus.I have always thought that having an outstanding mathematical professor is perhaps one of the best gift one can receive on his way to explore the world. I am truly grateful that you have decided to offer this course to students around the world. It is truly my honor to learn this material from you.?Thank you very much.Sincerely,[REDACTED]",2
+89,1444494068,"If the solution is ordered then there are more possibilities, larger numerator, greater chance.If the solution is not ordered then there are fewer possibilities, smaller numerator, lesser chance.",2
+341,1446620848,"I haven't mastered this well enough to answer by the method shown in the answer explanation. So I just made up a sample space and worked each equation for my made up sample space. I know this is not the method that we were supposed to use. And I know my method is not a mathematical proof, but it worked well enough for a multiple choice quiz.",2
+487,1447518774,I wasn't able to figure out how to approach it with the methods introduced in week 6. I had to resort to the concepts of earlier classes to arrive at an answer.(I haven't submitted the quiz yet so don't know if its correct),2
+536,1448194229,Hello.In this problem we find the total probability for all games of length 1 to infinity.?The generalization for biased game is quite simple.?But what is known about the following questions:What is the probability that a gambler loses exactly on n'th move?What is the number of different games where a gambler loses exactly on n'th move?What is the total number of different n-move games?,4
+319,1446413203,Make some transformations and you'll find the correct answers it doesn't matter if it's about independence or not.,2
+117,1444760223,"[REDACTED]-- I've done a bunch of MOOC's, too. I tried a few other MOOC math courses, and I found it pretty challenging re: referring to online books / external sites / incomplete instruction. This course is great in that the professor actually introduces all the beginner concepts slowly &amp; does examples / returns to earlier examples. I'd definitely suggest sticking with this over any edx stats course and / or Hopkins | Coursera course (at least that's my opinion from experience). Good luck!",1
+218,1445489336,"Thank you Prof. [REDACTED] for your answer. I am basically interested in problems that lie at the interface of differential geometry and probabilistic modeling, and always curious about connections between the two at an advanced level. Hope my probability knowledge required for studying such things can be built up on what I learn in this course.",1
+563,1448420119,"The final answer does not need to be ""yes"". If you are down to two candidates, a ""yes"" or ""no"" could pinpoint one or the other.",2
+490,1447560208,Thanks a lot both! You are quite right and the solution is updated now...,1
+452,1447341626,"
+Bear in mind,[REDACTED], that every mass function has to be non-negative [the positivity axiom] and that the atomic probabilities (the masses) have to add to $$1$$ [the normalisation axiom].  This implies, among other things, that no individual mass function can be everywhere above another mass function.  If that were possible than the sum of probabilities for the dominating function would have to be larger than the sum of probabilities for the dominated mass function and so at least one of the two would have to violate the normalisation axiom.  In general, hence, two different mass functions are not directly comparable: they will each spread unit mass around in different ways and each of them will have to be bigger than the other somewhere.
+
+What does this observation say about binomial probabilities?  Recall that the binomial distribution has a unimodal character, first increasing to a maximum at a point or two adjacent points, then decreasing.  The distribution peaks near its expected value. Thus, the function $$b_{100}(k; 0.3)$$ peaks at the value $$k = 30$$, the function $$b_{100}(k; 0.5)$$ peaks at the value $$k = 50$$, and the function $$b_{100}(k; 0.8)$$ peaks at the value $$k = 80$$.  The following table lists the truncated values of each of these mass functions at each of these points.
+
+\begin{equation*}
+\begin{array}{l|lll}
+b_{100}(k; p) &amp; k = 30 &amp; k = 50 &amp; k = 80\\\hline
+p = 0.3 &amp; 0.0868 &amp; 2.3\times 10^{-5} &amp; 4.3\times 10^{-27}\\\hline
+p = 0.5 &amp; 1.3\times 10^{-5} &amp; 0.0796 &amp; 1.6\times 10^{-11}\\\hline
+p = 0.8 &amp; 6.3\times 10^{-25} &amp; 4.2\times 10^{-10} &amp; 0.0993
+\end{array}
+\end{equation*}
+
+Because of the rapid decay of the binomial distribution away from its centre, each column contains one moderately large probability near 10% (for the distribution achieving its maximum value there) but the corresponding probabilities at this location for the other two distributions are tiny as the location is far from their centres.  The three figures in Tableau 10.1: c make this very evident graphically.  If $$n$$ is smaller the storyline remains the same but the probabilities will not have decayed so dramatically fast as you discovered in your numerical investigation.
+
+Intuition can be tricky when learning a new subject.  And this seems to be particularly the case for the mathematical science of probability.  But this is not at all unusual.  As we explore further, we get better at seeing problems in the right perspective and our refined intuition ripens with experience.
+",2
+298,1446093438,"It is true that this subject has a habit of tripping up even experienced practitioners but experience does tend to help in improving intuition: you'll get better at seeing patterns and trends the more you are exposed to chance problems.  But, at the end of the day, nothing trumps a careful verification by considering the various probabilities and testing for a product rule.",2
+440,1447276696,"At the beginning of lecture 10.2:d, the probability of an erroneous conviction is explained as meaning, transcribed in words, ""An individual is innocent and is convicted"".? This sounded to me like a joint probability of these two events.? The lecture then goes on to show the calculation of the probability of innocence conditioned upon the event that the individual is convicted.? Perhaps I am getting mixed up in terminology, but it was somewhat confusing to me.? I thought the joint probability would relate to the probability that, prior to the case being heard, the outcome would result in a conviction of someone who was innocent - and this also might be of interest in designing an optimal jury strategy.Very interesting example! Thanks,[REDACTED]",3
+586,1448733260,"My turn to send a huge ""Gracias"" to Prof. [REDACTED] and every involved in the planning, preparation and delivery of this exciting and challenging course. Indeed a great review for me of the basic probability.?The enthusiam and humour was indeed greatly appreciated. Thanks as well to everybody participating in the discussion fórums.The best to all of you!",1
+86,1444484729,Your question established for me that I need more study on this material.? I am not able to compare the calculations of that problem as an ordered vs unordered sampling.Could you show the unordered difference from this $$P = \frac{365^\underline{n}}{365^n}$$editedIs this the Unordered $$P = (\frac{365^\underline{n}}{n!})$$ / $$365^n$$,4
+480,1447456468,Thanks a lot everybody! It is reworded now....,1
+500,1447655538,"Think about an experiment with three indep events where the probability measure for each is given by Poisson. For a moment forget that you have Poisson and you have any other familiar probability measure and solve the problem (then adapt it). If still not clear, look at dangerous bend sections at Poisson and independence (the first of the series).?",2
+645,1449728922,"Thank you, very impressive!",1
+321,1446421788,"Hi,I submitted HW2 at the deadline, submission time ""Sun 25 Oct 2015 8:59 PM PDT"", but the grader marked this as late and penalized me 50% on my effective score. The wording defines late as submission *after* 8:59 PM, so I submitted it during the last minute. I realize now that I should've submitted a few tens of seconds earlier, but I wanted to check my work.Would it be possible to let this slide since the wording was ambiguous regarding inclusion of the final minute?",6
+264,1445844708,"Hi guys,I hope I have not missed something important in the lectures.But couldn't solve 7th problem in HW2. Wrong answer twice..Just want to make sure my 3d try is correct.There are 2 rooms Snitch?is located in either with prob == 1/2.Probability of finding Snitch is p. So we have total probability?1/2*p + 1/2(1 - p). When p == 0, the correct answer is 1/2, right?If not, where am I wrong?Thanks in advance.",4
+149,1444998545,"I checked the different C values to find an solution for$$\sum_{i=0}^\infty C3^{-k}+4^{-k-1} = 1$$ with $$k = 0,1,2,...$$I found a solution, but is there an easier way?",4
+436,1447217054,The second answer is wrong.,5
+52,1444227370,"At $$4:16$$ in the video, we take the total number of possible subpopulations as 5 to the falling 3 divided by 3!. I do not understand why we should divide by 3!.",4
+489,1447560096,"Hello, yes they are equivalent and yours is much simpler. I have added this and updated the solution...thanks!",1
+121,1444793132,"Ok, thanks!",1
+584,1448717341,"I cannot thank Professor [REDACTED] enough for this wonderful introduction to probability theory. I am someone who always had difficulty getting to grips with basic statistics and probability in the past. But?Professor [REDACTED]'s lectures with their enthusiasm, humour and most of all their careful explanation of concepts that previously seemed intimidating, have helped me to develop a genuine appreciation for the subject area, its beauty and its wonder. I am extremely grateful that?Professor [REDACTED]?decided to share his?teaching skills with a wider audience via Coursera and I hope it doesn't seem too greedy of me to hope that he can be persuaded to give a follow up course.?But this is a political age, so we need a slogan: Probability Theory can be fun and beautiful!",1
+510,1447832795,"Hello Dr. [REDACTED],? ? ? ? ? ? ? ? ? ? ? ? ? ? ?I did not understand why a machine would make errors in counting a few million votes. ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?Can you please give an example of the source of such an error?Thank you.",4
+170,1445210947,"The question asks:?What is the probability that the game terminates in?n?turns?Does it mean that it finishes exactly at the n-th turn or that it finishes within n turns? I assumed the latter, but then none of the answers does seem to match my answer. ",5
+249,1445727037,"Thanks, fixed!",1
+409,1447116577,"I think I found a typo.Q9 Suppose that a die is rolled twice.  What is the probability that  the sum of the two rolls is at least 5?In order for the accepted answer and explanation to be true, the question needs to be changed to something like-Suppose that a die is rolled twice.  What is the probability that  the sum of the two rolls is at most 4?",5
+401,1447075794,$$F_n$$ is in turn based on $$U_n$$ which accounts for these cases.,1
+361,1446794982,"Is this right?If it wrong, what is wrong?If it is right, is the given Question Explanation wrong?Or am I misinterpreting the question?",4
+625,1448978340,"I've asked for the optional problems to be archived along with the lectures, [REDACTED].  You should have access to these indefinitely.  If my TAs and I can free up time in future editions we'll plan to add to the the practice problems, and better organise them by tableau and difficulty.  But the creation of good problems with detailed, vetted solutions is a very time-consuming process and this will likely progress slowly.  Good luck with your studies.",1
+636,1449097155,"I'd like to join too thanking prof [REDACTED] for this wonderful course.I specifically found it useful that the context of the discoveries were shared, so it was easier to grasp the concepts directly through applications. The only caveat that I could mention as someone suggested in an other topic is that perhaps a stretching the material with an extra two weeks could be helpful.Thank you once again Professor!",1
+208,1445423343,"Professor, when/where can I find the solutions to the homework 1?",4
+300,1446098655,There is a mistake in solution provided for OPS 3 Q4. The correct answer is 1/5.,5
+294,1446075003,"Hello.Is there an experiment to get?really indistinguishable coins?So the probabilities of HH, HT, TT should be 1/3.",4
+282,1445976156,"Can someone provide a hint as to how to approach this? Stuck on conceptualizing the probability of X occurring before Y, as opposed to the probability of X vs Y.",4
+258,1445806053,"thanks, great post!",1
+171,1445213135,"I've calculated probability, but it's not in the list (2/3, 9/126, 1/55, 1/3) - I won't give my answer here, but it's close to 1/55.Is it any possibility this list is wrong?Thanks!?",4
+379,1446846815,my doubt is about the value to assign to n,3
+506,1447733303,"Now that this course is winding up, what is the next course that can be taken up to build on the knowledge gained in this one?",4
+618,1448916007,"P.S. I bought prof.[REDACTED]'s book :D, so perhaps suggestions on which exercises or topics within that book would be great :D",1
+205,1445413130,"Can someone explain the solution ?
+",4
+74,1444350198,Since i'm a book worm i always try to pick other people brains about stuff they read about a given subject.In the same theme of this course i would recomend:The Drunkard's Walk: How Randomness Rules Our Lives?by? Leonard MlodinowHave any of you read something interesting about randomness and/or probability worth mentioning?,3
+511,1447852194,"How does the machine record the votes? For example, by an optical sensor scanning over bubbles printed on a card and filled in with a pen or pencil, or holes punched through a card through which, for example, a light is shone. Does the optical sensor always function without noise in the electronics? Do the voters even fill in the card neatly? There are many reasons this does not work perfectly.",3
+210,1445425862,"In the context of looking at events as regions in 2 or more dimensions, can any smoothness or differentiability notions be enforced on the regions that arbitrary events can be modeled as??In other words, are they convex, compact, or connected or even submanifolds so to speak??Or is it just that they are measurable subsets of Euclidean spaces??",4
+209,1445425635,?I was wondering what the implications of Simpson's paradox are?? Is it simply to highlight that conditional probability affects events in a way that macroscopic trends are opposite to the microscopic trends?? Or is there something more to all this???Is there anything concrete that can be gleaned by looking at conditional probabilities??I seem to have missed out on the point behind the paradox arising when one looks at the aggregate picture rather than stand alone ones.,4
+593,1448820001,"From the question formulation: ""This problem is related to the venerable game of twenty questions."" ",2
+34,1444130910,"Hey everyone ,I am [REDACTED] from [REDACTED]. I am an Electrical Engineer by profession. Why I want to learn probability? Because I always thought that its a cool subject but was never able to spare much time. Also Prof [REDACTED] made it look fun thing to do. I think whether consciously or unconsciously we use probability all the time. Our mind does the calculation every single day. What are the chances that we will face traffic jam or not? What are the chances that I will reach the office on time?(believe me that is the biggest question in my life right now )? What are the chances of finding life on Mars? What are the chances that Google will, one day, become the Big Brother as depicted in 1984? Also I find myself thinking about conditional probability a lot these days. What will happen if some certain criteria are fulfilled. Like what are the chances of flash over in a motor if the ambient temperature is above a particular level.I don't? know whether I ll find the answers to these questions but I surely think that this time it will be fun to learn probability. I bought Prof [REDACTED]'s book and its awesome. Highly expensive but great. I have become a huge fan of his communication skills in general and his English in particular. I am learning not only probability but also new words. I know that the chances of improving my vocabulary along with probabilty is 100%.Thank you Coursera, [REDACTED]and Prof [REDACTED]",1
+97,1444628448,Thank you for offering this course through courser.,1
+175,1445218375,"Hello[REDACTED], It looks like we share the same nationality, profession, math/physics/probability interests, and even age!Feel free to connect: [REDACTED]",1
+482,1447471674,Perhaps using the recursive binomial identity will give us a meaningful definition of $$\binom{n}{-1}$$:$$\binom{n}{k-1} + \binom{n}{k} = \binom{n+1}{k}$$Let $$k = 0$$$$\binom{n}{-1} + \binom{n}{0} = \binom{n + 1}{0}$$$$\binom{n}{-1} + 0 = 0$$$$\therefore \binom{n}{-1} = 0$$,2
+422,1447164933,"I understand, but then you really don't take in account, that also Bb and BB childs from? your $$G_1 ..G_4$$ are possible? I think, that is the core difference between the two solutions. But the BB and Bb childs are possible. Also if we know, that Xerxes has blue eyes.",3
+345,1446636202,"Given that we can certainly discuss the questions after the deadline, what could be the problem?",2
+162,1445155830,"Guys, does anyone have an idea how to identify which tableau is required and which is optional?",5
+273,1445883166,Thanks both! It is fixed.,1
+456,1447358603,"Hello every one!This is in reference to the introduction of the geometric distribution in Tableau 6.1 d.What if the sample space of the geometric distribution is different from the assumed? For example, what if?$$\Omega = \{ 80, 99, 103, 1090, 4070 \}$$, where the probability mass reduces exponentially as we go from 80 to 4070? To be more specific, the probability before 80 is 0 and after 4070 is 0.Can we model this as a geometric distribution? Please let me know if there is an answer to my question in another video lecture of this beautiful course???Thanks!",4
+164,1445157871,"Hello. Optional material are marked with a ""dangerous bend"" symbol.If you click on Week 2 you can see straight away that Tableau 7 is optional.If then you click on ""Tableau 6"" you can see that 6.2 is optional",2
+585,1448720609,"
+Yes, indeed, [REDACTED].  Your observation is perceptive.  In practice, especially when sample sizes are relatively small and the underlying distribution is discrete, the normal approximation picks up a ""discretisation"" error at the end points of integration.  A statistician will occasionally attempt to improve matters slightly by employing what is called a continuity correction which attempts to cancel opposing errors on either side of an end point in the integral.
+
+In practice, however, we should employ such approximations with caution.  The other sources of uncertainty and error in the modelling (independence, bias, and so on) may well be more significant.  An apt slogan: When \(n\) is small, proceed with care.  A rule of thumb (which itself should be viewed with caution) is that \(npq\) should be at least \(10\); for a fair coin this translates into \(n\) about \(40\).
+
+To make assurance doubly sure we will want to provide an error estimate as well, and error estimates are indeed available via the Berry??ss?en inequalities, for instance.  But the theory behind them gets much more arduous. 
+",2
+194,1445327682,People like you are sure inspiring. To actually spend retirement learning something you wish to is bliss. Where I come from most retired people spend their time gossiping about politics or others' lives. Cheers!!,1
+247,1445720757,"Hi [REDACTED]iI don't know your numbering system, so it is difficult to know which slide you are asking about. Maybe you could give us more precise directions to the slide you are asking about.Try something like this-? The slide shown at the 1:55 minute mark of Tableau 8.1:d.I may not be able to answer your question, but at least we will know what you are asking, and maybe someone will have an answer.",5
+591,1448817887,"Hello,Can someone provide a guess for Q5? I'm curious about solving method.My current approach is about building a tree with conditional probabilities and 'optimal strategy' ??to process high frequency letters first. Unfortunately, answer isn't correct.Thanks.?",4
+55,1444229488,How do we delete a thread?,3
+454,1447344719,"So you would prefer that the question were amended to the following?The first throw in a game of craps results in 6.  Determine the conditional probability that the game continues for at least 10 further throws after the first throw, with neither a win nor a loss.",2
+391,1447010331,"$$P_3(2) = 1/3$$ is exactly what I'd expect the correct answer to be. If the princess discards the first two suitors she must select the third. So she chooses the most suitable if and only if they are in position 3.  Which means the probability is 1 in 3.
+I can also confirm that the solution given does have the limit $$1/e$$. There's another source here if you want to check it: https://en.wikipedia.org/wiki/Secretary_problem#Deriving_the_optimal_policy
+",2
+248,1445722463,"I'm having trouble making the jump from the statement that there is a 95% chance that the future existence of the phenomenon lies between r/39 and 39r to the statement that there is a 95%
+chance the phenomenon will not persist for more than 39 times the elapsed duration.Why wouldn't it be a
+ 97.5% chance (1 - 1/40)?(This relates to an explanation that happens at about 15:30 into the lecture.)Thanks,[REDACTED]",4
+438,1447235987,"Hi [REDACTED], thanks for sharing your work. I've only a doubt: how?to?justify the reduction to the last four cases?If you?want to try,?I'would be curious to know what solution should be obtained by your method for different initial probability in the occurences of parental genotypes.?For exemple?p(BB)=p(Bb)=p(bb)=1/3 (in this?case the probability for the 2nd child to have blue eyes should be 25/36).",4
+48,1444177128,"I write in pencil, not pen.That Turing quote was terrific. I did not need to write it down because was so true.",1
+389,1446986505,It's clearly explained in 8.2-i.The series can be viewed as a summation of N+1 rectangles just below the function $$x^k$$.Thus for N big the series converges to the integral.,2
+434,1447195266,"I've been struggling in clarifying the basic understanding of the Probability phenomenon. Does probability apply to models which are totally random (no cause or other factors affecting the outcome) If so, when is it appropriate to recognize a phenomenon/problem as a probabilistic one. Are there any markers??",4
+457,1447363301,"Hello!Why lambda in example?with fatalities in Prussian army (Tableau 10.2 g) is 196/280?Death in a corps-year is a success, it's probability is p.There is n=196 deaths at 280 corps-yearslambda = n*pWhy p is 1/280?",5
+100,1444644879,Regarding the last question of bridge deals - why was the last answer not divided by 4!?Because once 4 subsets are created from 52 cards - they can be rearranged among themselves - right?,5
+559,1448379991,"Our sincere apologies - there was an incorrect end date listed which made it appear that the course was done sooner (November 22), and which has since been fixed, but the course is actually still running (until November 29 when the final homework is due). After that grades can be run and certificates issued (which does take some time but we will ask Coursera to accelerate it). Since Professor [REDACTED] has graciously offered to write an email for you, if this is required, please let us know.",1
+371,1446842686,"regions that govern the result of the experiment are separated by the values?$$\theta=\pi/2,3\pi/2,5\pi/2...$$now from 7.b:?$$\theta=\omega \tau =2 \omega v/g$$thus for?$$\theta=\pi/2$$:$$\theta=\omega \tau =2 \omega v/g =\pi/2 =&gt; \omega v =\pi g/4$$",2
+296,1446090278,"I am a slow poke and this class is anything but slow. I find it a rich, carefully produced and engaging treat full of precise denouements of surprising detail that build quite rapidly and makes me wonder if I will ever be able to keep up. But I am hooked and will snail along my merry way thankful for the opportunity to learn from such an exquisite teacher.",1
+428,1447173210,"I am confused about this problem:Suppose the probability that Jack and Jill have at least one boy is 1/2. Furthermore, suppose the probability that someone named Jane is a girl is 2/3. (A little artificial. But the purpose is to solidify the definition of conditional probability.) Assuming that Jack and Jill will have at most two children, what is the probability that they have at least one boy, given that they already have a child named Jane?As I understand it:What we have at the beginning, is:?1) P(girl | name is Jane)=2/3This also implies P(boy | name is Jane)=1/32) P(at least one boy)=1/2Now, I understand this as some apriori information that we have about the family of Jack and Jill.?3) They have at most 2 children.?Now comes an additional piece of information:4) They have a child named Jane.And we want to compute the ""new"", posterior, probability that they ?have at least one boy.=====So, what we have, already knowing that there is a child named Jane:P(at least one boy) =P(at least one boy | Jane is a boy)*P(Jane is a boy) +?P(at least one boy | Jane is a girl)*P(Jane is a girl) ?=1*1/3 + P(at least one boy | Jane is a girl)*2/3So far it agrees with the official solution. But why - following the official solution further - can I say thatP(at least one boy | Jane is a girl)=1/2?We were given the probability P(at least one boy)=1/2 at the beginning, but isn't this unconditional probability, given before knowing that they have one child named Jane that is a girl? Why are these two events independent?And where we use the information that they have at most two children?",4
+108,1444713164,"The instructions at Q9 read ""Let?A,B,C?and?D?be three events."". I count four events. I believe this affects the answer to question 12, as none of the choices seem right with these instructions. I could guess at the one that would be right if it were extended for 4 events, but that seems wrong.Am I missing something obvious?Update: Make the mental adjustment I suggested. The actual explanation does show the answer correctly extended to four variables.",5
+20,1444027562,Hello everyone.My name is [REDACTED] and I am coming from [REDACTED]. I am software engineer and I am looking forward to learn more about probability. I heard all the best about this course.,1
+484,1447494055,"But why the lecturer considers combinations $$G_1 B_2$$ and $$B_1 G_2$$, but not $$B_1 B_2$$ and $$B_2 B_1$$?",4
+165,1445158218,Many thanks!,1
+417,1447155785,"I've posted my solution, I hope it can clarify the point.",1
+280,1445930601,"Just because we know it is one of those four coins, it doesn't mean each of those four coins is equally likely. ?Because the different coins have different chances of showing heads, the fact that heads was shown gives us some additional side information.So we need to use conditional probabilities. We're lookimg for P(second throw has lower head | first thrown has upper head). ?So write out what that means and apply the principles in the lectures.",2
+451,1447341593,"The idea of probability is applicable to any events whether they're randomly occurring or causal occurring, only under one condition when the outcomes are more than one and the are uncertain. The answer to the second question ""what're the identifiers if the problem can use the probability concept?"" You should be able to identify the chance elements ""Sample space, the events of interests among all events, probability measure of the interested event"".Correct me if i'm wrong.. Critics welcome..",2
+67,1444314152,"The confusion for me is correlating which is n and which is k, from the urn model.n is the urn, population is 5k is the ball, choose 3From the population of 5 urns we are choosing 3, with replacement.Each urn has 3 choices with replacement:? $$5^3$$From the population of 5 urns we are choosing 3, without replacementEach urn can choose from remaining ball, without replacement, $$5^{\underline{3}}$$And I think here order matters. If order did not matter we would divide by 3!.",3
+415,1447147890,"Hi [REDACTED], what is your result for the additional question?I had a doubt about the value to assign to ""n"".",3
+78,1444364520,"He stated that we would pick n because it was natural to use n, but the n^k falling isn't 365^n; wouldn't n=365 and in this example be 365^k?p(k):=1-(365!/(365-k)!)/365^k",2
+646,1449790440,"Now, to put our new building block function to more interesting use, let's compute the probability that $$k$$ out of $$n$$ individuals have the same birthday as somebody else amongst the group of $$n$$.In my previous posting,?in analyzing the outcome breakdown for $$n=6$$, it was still feasible to enumerate the various duplication configurations manually. However, as $$n$$ increases, this quickly becomes tedious. Instead, we would just need to come up with a systematic algorithm that fully describes the configurations that we are interested in. Following is an algorithm for describing how to divide $$k$$ members into sets of length 2 and up.def EnumerateByInvolvement(k, max_len = 0):
+""""""
+Enumerate matching configurations by how many members are involved.
+How can we divide k members into sets of length 2 up to max_len?
+
+To manage an orderly enumeration, the recursion follows a hierarchy of max_len's.
+
+The output is a list of lists, wherein each inner list describes a 
+probability event, and the outer list is a composite of these events.
+""""""
+    if max_len &lt; 2 or max_len &gt; k:
+        max_len = k     # let max_len default to k, which is also its boundary
+
+    if k == 2 or k == 3 and max_len &gt;= 3:
+        return [[(1, k)]]
+
+    # In dividing k members into sets, we'll control the size of the largest set
+    # and call ourselves recursively to divide up the remaining members.
+    output = []
+    for m in range(2, min(k - 1, max_len + 1)):
+        for each in EnumerateByInvolvement(k - m, m):
+            # Incorporate our set of size m into each possible further subdivision.
+            copy = each
+            if copy[-1][1] == m:
+                # consolidating our set into existing collection of like sets
+                copy[-1] = (copy[-1][0] + 1, m)
+            else:
+                copy.append((1, m))
+            output.append(copy)
+
+    if k &lt;= max_len:
+        output.append([(1, k)])   # the event where all k members are the same
+
+    return outputHere is an example result from this algorithm:EnumerateByInvolvement(8)
+Out[1]: 
+[[(4, 2)],                  # 2 + 2 + 2 + 2
+ [(1, 2), (2, 3)],          # 3 + 3 + 2
+ [(2, 2), (1, 4)],          # 4 + 2 + 2
+ [(2, 4)],                  # 4 + 4
+ [(1, 3), (1, 5)],          # 5 + 3
+ [(1, 2), (1, 6)],          # 6 + 2
+ [(1, 8)]]                  # 8So, there are the above 7 ways for 8 items all to be mutually involved in duplications, starting with 4 sets of pairs down to 1 set of octet. After fixing a value for $$n$$, we can send each of these 7 configurations to MatchingOutcomes() to see the relative likelihood of occurrence between them:[MatchingOutcomes(10, *x) for x in EnumerateByInvolvement(8)]
+Out[2]: 
+[10720646086910760000,      # (4, 2)
+ 79412193236376000,         # (1, 2), (2, 3)
+ 59559144927282000,         # (2, 2), (1, 4)
+ 27497296827000,            # (2, 4)
+ 43995674923200,            # (1, 3), (1, 5)
+ 21997837461600,            # (1, 2), (1, 6)
+ 2170268100]                # (1, 8)In our current pursuit, though, we'd just want to add up these outcome counts for an aggregate event -- that $$k$$ out of $$n$$ members are involved in duplications. We can do so for each possible value of $$k$$ from $$2$$ to $$n$$, and the event that no members are involved in duplications would complete the probability space. Here is a helper function that coordinates this for arbitrary values of n:def BreakdownByInvolvement(n):
+""""""
+Given sample length n, breakdown the probability space into events that k 
+members are involved in duplications, for each possible value of k.
+
+The output is a list of outcome counts: the count for the event that k 
+members are involved is located at index k. The probability that no members 
+are involved in any duplication is included at index 0. The value at index 1
+is always zero. The sum of all listed counts == size of universal set Omega
+of outcomes == U^n.
+""""""
+    output = [0] * (n + 1)
+    output[0] = MatchingOutcomes(n)
+    for k in range(2, n + 1):
+        output[k] = sum([MatchingOutcomes(n, *each) for each in EnumerateByInvolvement(k)])
+    return outputLet's see this for $$n=23$$:x = BreakdownByInvolvement(23)
+x
+Out[3]: 
+[42200819302092359872395663074908957253749760700776448000000,       # no duplicates
+ 0,
+ 31127718027490866028326830198110688586585100458590208000000,       # k = 2
+ 633412866838476924995022707519694244494464253517824000000,         # k = 3, etc.
+ 9510372899198001366591935144788452714438622704992256000000,
+ 348936891266075262718838051635985371732524711795916800000,
+ 1577324669345046263221851186424245490340884754404147200000,
+ 77245599610981460698947233257028002104828678290841600000,
+ 156330051580001096937965477716707362207333190215270400000,
+ 8929630406796355347166475234526869459222175171256320000,
+ 9604072514120182262743331286290405114737486323204096000,
+ 586702014216544388430279962375411837027837349930240000,
+ 367133554836980852298348860247818330316550492996608000,
+ 22364374364059562575259967212819424170625990861696000,
+ 8537258181728069327461416335543992430563375723776000,
+ 484611331648901290394031983761854855905251339142400,
+ 114551990867270046691245565404096521768276146329600,
+ 5606247032456038550696349112634727537338305934400,
+ 803483514903143056903511789667784733061205161600,
+ 30447385313500418845131075969263659967127799800,
+ 2435704194803028139640543515719995384266459680,
+ 58909670655188139034257558455395775364978900,
+ 2030598170923639683628828796453974579181080,
+ 17137025361665505221417072223728969729665]                         # k = 23
+And let's see this In terms of probabilities:p = [outcomes / 365**23 for outcomes in x]
+p
+Out[4]: 
+[0.4927027656760146,           # no duplicates
+ 0.0,
+ 0.3634221566065064,           # k = 2
+ 0.007395218303039374,
+ 0.11103545162244625,
+ 0.0040739060097978235,
+ 0.018415572015133306,
+ 0.0009018573855684748,
+ 0.0018251837297367736,
+ 0.0001042551701756904,
+ 0.00011212941283406299,
+ 6.849860021979419e-06,
+ 4.286355592903824e-06,
+ 2.6110841647189477e-07,
+ 9.96741482035409e-08,
+ 5.6579314650773045e-09,
+ 1.3374167527406075e-09,
+ 6.545402349136588e-11,
+ 9.380826166762023e-12,
+ 3.5547913997065775e-13,
+ 2.8437319772334875e-14,
+ 6.877818520323198e-16,
+ 2.3707628224675937e-17,
+ 2.0007810110771862e-19]       # k = 23
+
+sum(p)
+Out[5]: 0.9999999999999998
+We see that these probabilities sum up to just about 1. Are we dealing with a rounding error, or have we missed something in our counting? Let's make sure:sum(x)
+Out[6]: 85651679353150321236814267844395152689354622364044189453125
+
+365**23
+Out[7]: 85651679353150321236814267844395152689354622364044189453125So, our counting is exact. Here is a pie chart of the distribution:Incidentally, a naive approach to answering this question might be to enumerate all $$365^{23}$$ possible outcomes and then categorize each according to how many of the 23 people are involved in duplications. Assuming we can analyze 1 million outcomes per second, this would take $$365^{23} \div 1,000,000 \div 60 \div 60 \div 24 \div 365 = \underline{2.7 \times 10^{45}}$$ years!Here is a distribution plot for $$n=30$$:And for $$n=40$$:",2
+599,1448847584,I cannot express enough my gratitude for this course. It will be archived in my computer and devoured properly.A big up to the people who did the subtitles. They/he/she offered me a ton of laughs with some amazing renditions. (big help to get me trhu all the videos).Thanks to prof. Venkatesh and the rest of the crew.This is just the end of the beggining for my excursion to probability land.,1
+159,1445094196,"I did something similar (but not as developed) in python for practice:from random import randint
+
+tosses = 100000
+heads = sum(randint(0,1) for _ in range(tosses))
+
+print 'Tosses: ', tosses
+print 'Heads %:', 100.0*heads/tosses
+Output:
+Tosses: 1000 
+Heads %: 48.1 
+
+Tosses: 10000 
+Heads %: 49.66
+
+Tosses: 10000000 
+Heads %: 50.01825
+
+I find that it takes a surprisingly large number of tosses to get close to 50% consistently. ?For instance, even 1000 tosses can be off by 2% like in the results above.
+
+Edit: wow, this post editor massacres code block formatting.  Maybe cause I'm using chrome?  Had to fix the HTML manually...",2
+453,1447341961,"The solution of Q1 gives the probability, that at least 11 subsequent throws after the first throw are necessary to finish the game. Ten of them don't finish the game.However, it is asked for the probability that the game goes on for at least ten subsequent throws.",2
+550,1448294699,Thanks. [REDACTED] ,1
+544,1448262186,I am asking because the course status in my coursera says - grading. The announcement mentions that it counts towards the final grade.,3
+413,1447142117,"It is certainly starting to seem to me that, in discussing the relationships we find in analyzing repeated independent trials, we should always check to see if we cannot take advantage of the presence of a recursion in deriving useful expressions. Does the applicability of recursion arise directly from the repeated independent trials? Is this a tautology, or something else?I think I see something dimly, here, but I'm just not sure.",4
+554,1448342825,I presume every gets a different frequency list? It appears the lowest expectation is not amongst the available answer choices?,3
+539,1448224623,"We are conditioning on the event that the particular child whose name we are told is Jane is a girl, not on the event that any child named Jane is a girl...so the solution remains valid even if both children are named Jane...",2
+335,1446568327,"Considering the available answers, shouldn't be the ""strictly positive probability"" part removed to allow for them to be zero? Otherwise, I would believe that the ""sometimes"" should be ""never"", as the multiplication of two ""strictly positive numbers"" will always be greater than zero. Thanks once more for this great learning exercise!",3
+384,1446905246,"Hi [REDACTED], in the previous posts I was referring to the optional part of the problem.For the not optional Q7 yes?I passed the grader.?For this part, you have to consider a sequence of?coin tosses. For the coin the probability of success (=at least one hit per game) must be determinated starting from the known probability to get an hit for any given ""at bat"".",3
